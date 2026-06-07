@@ -1,245 +1,303 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="/zzz-guide-en/">
-    <title>Hoshimi Miyabi Build Guide - Best W-Engines, Drive Discs & Teams | ZZZ Guide</title>
-    <meta name="description" content="Complete Hoshimi Miyabi build guide for Zenless Zone Zero. Best W-Engines, Drive Discs, stat priorities, team compositions, and skill rotations for the Ice Attack agent.">
-    <link rel="stylesheet" href="/zzz-guide-en/css/style.css">
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Hoshimi Miyabi Build Guide - Best W-Engines, Drive Discs & Teams",
-        "author": { "@type": "Organization", "name": "ZZZ Guide" },
-        "datePublished": "2026-06-04",
-        "dateModified": "2026-06-04",
-        "description": "Complete build guide for Hoshimi Miyabi covering W-Engines, Drive Discs, stat priorities, team compositions, and optimal skill rotations.",
-        "mainEntityOfPage": { "@type": "WebPage", "@id": "/zzz-guide-en/guides/characters/miyabi.html" }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What is the best W-Engine for Hoshimi Miyabi?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Hoshimi Miyabi's signature W-Engine, Hailstorm Shrine, is her best-in-slot option providing massive Ice DMG Bonus and CRIT stats. The Battle Pass W-Engine Cannon Rotor and the craftable Starlight Engine are excellent F2P alternatives."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Which Drive Discs should Miyabi use?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The optimal setup is 4-piece Polar Metal and 2-piece Woodpecker Electro. Polar Metal grants Ice DMG Bonus and a substantial ATK buff after using an EX Special, while Woodpecker Electro provides CRIT Rate which is crucial for her kit."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What are Miyabi's best teammates?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Miyabi pairs excellently with Lycaon (Ice Stun) and Soukaku (Ice Support) for a mono-Ice comp. Alternatively, she works well with Rina (Ether Support) for PEN Ratio buffs or with any Stun agent who can trigger frequent Chain Attacks."
-                }
-            }
-        ]
-    }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoshimi Miyabi Build Guide | Best W-Engine, Drive Discs & Teams | ZZZ Guide EN</title>
+  <meta name="description" content="Complete Hoshimi Miyabi build guide for Zenless Zone Zero. Best W-Engine (Hailstorm Shrine), Drive Disc set (Polar Metal 4pc + Freedom Blues 2pc), Frostburn mechanics explained, skill priority, and top team comps for the S-rank Ice Anomaly character.">
+  <link rel="canonical" href="https://chjiya.github.io/zzz-guide-en/guides/characters/miyabi.html">
+  <link rel="stylesheet" href="../../css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Hoshimi Miyabi Build Guide – Best Build, Frostburn Mechanics & Teams",
+    "description": "Complete Hoshimi Miyabi guide for Zenless Zone Zero: best W-Engine, Drive Discs, skill priority, Frostburn mechanics, and team compositions for the S-rank Ice Anomaly character.",
+    "datePublished": "2026-06-07",
+    "dateModified": "2026-06-07",
+    "inLanguage": "en-US",
+    "author": { "@type": "Organization", "name": "ZZZ Guide EN" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can Miyabi perform well at Mindscape 0? Do I need her signature W-Engine?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Miyabi functions perfectly at M0 (Mindscape 0) — her entire Frostburn kit is complete without any Mindscapes. M1 improves Frostburn build-up speed by about 15%, while M2 is a major power spike that makes Frostburn state permanent and grants 30% additional CRIT DMG. Her signature W-Engine Hailstorm Shrine provides approximately a 22% total damage increase, making it the highest priority investment. For budget players, the recommended path is M0 + signature W-Engine over higher Mindscapes without the weapon."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why should Miyabi use Polar Metal 4-piece instead of the full ice set?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Polar Metal 4-piece gives 10% Ice DMG and a massive 30% CRIT DMG boost while the enemy is in Frost state (Frostburn active). This perfectly matches Miyabi's playstyle — she spends most of her time in the Frostburn state during her damage windows. A full ice set's 4-piece bonus has lower total value for Anomaly characters because they scale more heavily with Anomaly Proficiency and CRIT DMG than raw ATK or DMG%. The Freedom Blues 2-piece adds 30 Anomaly Proficiency, accelerating Frostburn trigger frequency."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What teams work best for Miyabi?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Miyabi's BiS team is the Mono-Ice squad with Lycaon (stun + Ice RES shred) and Soukaku (ATK buff + Ice DMG). An alternative high-damage option is the Disorder team with Grace (shock application) and Rina (PEN buff), leveraging Disorder's multiplicative damage formula. For budget players, Miyabi + Anby + Nicole is fully functional, as Miyabi's high base Frostburn efficiency compensates for the lack of ice resonance."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What's the difference between Miyabi and Ellen Joe?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Both are S-rank Ice characters but serve very different roles. Miyabi is an Ice Anomaly character who specializes in burst damage through Frostburn procs — she builds Ice anomaly quickly, triggers Frostburn for massive AOE ice explosions, then repeats. Ellen Joe is an Ice Attack character who deals sustained damage through her Afterimage system — she stays on field longer, building up Afterimage stacks through normal attacks and releasing Final Cut for damage. Miyabi has higher burst potential and AOE, while Ellen has smoother sustained DPS and simpler rotations. Currently, Miyabi has higher overall meta value due to her faster clear times in Shiyu Defense."
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
-    <header class="site-header">
-        <div class="container">
-            <a href="/zzz-guide-en/" class="logo">🔥 ZZZ Guide</a>
-            <nav>
-                <a href="/zzz-guide-en/">Home</a>
-                <a href="/zzz-guide-en/guides/characters/miyabi.html">Characters</a>
-                <a href="/zzz-guide-en/guides/teams/best-team-comps.html">Teams</a>
-                <a href="/zzz-guide-en/guides/bosses/weekly-boss-guide.html">Bosses</a>
-                <a href="/zzz-guide-en/guides/beginner/beginner-guide.html">Beginner</a>
-            </nav>
-        </div>
-    </header>
 
-    <main>
-        <article class="article-page">
-            <nav class="breadcrumb">
-                <a href="/zzz-guide-en/">Home</a> &raquo; <a href="/zzz-guide-en/guides/characters/miyabi.html">Characters</a> &raquo; Hoshimi Miyabi
-            </nav>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../../index.html" class="site-logo">🎮 ZZZ Guide EN</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="miyabi.html" class="active">Characters</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-            <h1>Hoshimi Miyabi Build Guide ❄️</h1>
-            <div class="article-meta">
-                📌 v1.0 &bull; Updated June 4, 2026 &bull; <span class="tag">Ice • Attack • S-Rank</span>
-            </div>
+<main class="container">
 
-            <div class="article-body">
-                <h2>Overview</h2>
-                <p>Hoshimi Miyabi is an S-Rank Ice Attack agent and stands as one of the most devastating DPS characters in Zenless Zone Zero. As the Chief of Hollow Special Operations Section 6, Miyabi wields a katana with surgical precision and delivers massive Ice damage through her unique Frostbite stacking mechanic. Her kit revolves around building Frostbite stacks on enemies via Basic Attacks and EX Specials, then consuming those stacks with her enhanced Charged Attack to unleash a series of rapid slashes that deal devastating burst damage.</p>
+  <div class="breadcrumb">
+    <a href="../../index.html">Home</a> › <a href="miyabi.html">Characters</a> › Hoshimi Miyabi
+  </div>
 
-                <p>Miyabi excels in both sustained DPS and burst windows. Her Frostbite mechanic means she gets stronger as fights go longer — each stack increases the damage of her next Charged Attack finisher, and at maximum stacks (8), her fully charged attack hits with AoE Ice damage that can clear entire waves of enemies. In Shiyu Defense and Hollow Zero, Miyabi consistently ranks among the top-performing DPS units thanks to her high multipliers, self-buffing capabilities, and synergistic teammates that can amplify her Ice output.</p>
-
-                <p>What makes Miyabi particularly valuable is her flexibility. While she naturally shines in mono-Ice teams alongside Lycaon and Soukaku, she also performs exceptionally well with universal supports like Rina or Caesar. Her Additional Ability grants her a stacking ATK bonus every time she triggers a Frostbite Shatter effect, making her increasingly dangerous over the course of a fight. For players looking to invest in a top-tier DPS that will remain relevant across multiple patches, Miyabi is an outstanding choice.</p>
-
-                <h2>Skill Priority</h2>
-                <p>When leveling Miyabi's skills, follow this priority order to maximize her damage output efficiently. Her core damage comes from her Charged Attack (Frostbite Shatter) and Basic Attack chain, so these take top priority:</p>
-                <table>
-                    <thead>
-                        <tr><th>Priority</th><th>Skill</th><th>Reason</th></tr>
-                    </thead>
-                    <tbody>
-                        <tr><td><strong>1st</strong></td><td>Basic Attack: Shinotsuku</td><td>Primary damage source; all Frostbite stacks are generated through her 5-hit Basic string. Each level increases the base multiplier and Frostbite generation rate.</td></tr>
-                        <tr><td><strong>2nd</strong></td><td>EX Special: Zanshin</td><td>Generates 2 Frostbite stacks on hit, provides i-frames, and deals significant damage. Also procs her Additional ATK buff.</td></tr>
-                        <tr><td><strong>3rd</strong></td><td>Chain Attack</td><td>Used frequently in Stun windows; high multipliers and applies Frostbite on the final hit.</td></tr>
-                        <tr><td><strong>4th</strong></td><td>Ultimate: Setsugekka</td><td>Massive single-target burst that applies max Frostbite stacks. Leveling this yields high burst damage returns.</td></tr>
-                        <tr><td><strong>5th</strong></td><td>Dodge Attack</td><td>Nice to have but not priority; the Dodge Counter applies 1 Frostbite stack.</td></tr>
-                        <tr><td><strong>6th</strong></td><td>Core Passive</td><td>Important for the ATK scaling passive at max level, but unlock levels are gated by Agent rank.</td></tr>
-                    </tbody>
-                </table>
-
-                <h2>Best W-Engines</h2>
-                <p>W-Engine selection has a dramatic impact on Miyabi's performance. Her signature W-Engine, <strong>Hailstorm Shrine</strong>, is purpose-built for her kit and provides everything she needs: Ice DMG Bonus, CRIT Rate, and an effect that boosts her Charged Attack damage after using an EX Special. Here is the full ranking:</p>
-                <table>
-                    <thead>
-                        <tr><th>Rank</th><th>W-Engine</th><th>Notes</th></tr>
-                    </thead>
-                    <tbody>
-                        <tr><td><strong>S-Tier</strong></td><td>Hailstorm Shrine (Signature)</td><td>Best-in-slot. Massive Ice DMG Bonus, CRIT Rate, and a unique buff that amplifies Charged Attack damage by up to 40% after EX Special usage. Tailor-made for Miyabi's Frostbite playstyle.</td></tr>
-                        <tr><td><strong>A-Tier</strong></td><td>The Brimstone</td><td>Excellent universal Attack W-Engine. Provides ATK% and a stacking damage buff on hit that helps Miyabi ramp up during extended fights.</td></tr>
-                        <tr><td><strong>B-Tier</strong></td><td>Cannon Rotor (Battle Pass)</td><td>Great F2P-adjacent option. CRIT Rate main stat and an effect that deals additional ATK-scaling damage every few seconds, which syncs well with Miyabi's frequent attacks.</td></tr>
-                        <tr><td><strong>C-Tier</strong></td><td>Starlight Engine (Craftable)</td><td>Best pure F2P option. ATK% main stat and provides a flat ATK buff after using a Dodge Counter or Assist, which Miyabi triggers naturally during combat.</td></tr>
-                        <tr><td><strong>Budget</strong></td><td>Lunar Pleniluna</td><td>Accessible option with ATK main stat. The effect grants a DMG buff that decays over time, making it serviceable for short burst windows.</td></tr>
-                    </tbody>
-                </table>
-
-                <h2>Best Drive Discs</h2>
-                <p>Miyabi's Drive Disc setup is straightforward: she wants Ice DMG amplification, CRIT stats, and ATK. The 4-piece Polar Metal set is non-negotiable — it is purpose-built for Ice DPS agents and synergizes perfectly with her kit. Here are the optimal configurations:</p>
-                <table>
-                    <thead>
-                        <tr><th>Setup</th><th>Discs</th><th>Best For</th></tr>
-                    </thead>
-                    <tbody>
-                        <tr><td><strong>Optimal</strong></td><td>4-Polar Metal + 2-Woodpecker Electro</td><td>General purpose best setup. Polar Metal's 2-piece gives 10% Ice DMG Bonus; 4-piece grants 20% ATK for 12s after using an EX Special or landing a Chain Attack. Woodpecker Electro provides 8% CRIT Rate. This is the recommended setup for 99% of situations.</td></tr>
-                        <tr><td><strong>High CRIT</strong></td><td>4-Polar Metal + 2-Branch & Blade Song</td><td>Use this if you already have 50%+ CRIT Rate from substats. Branch & Blade Song provides 16% CRIT DMG, pushing your crit multiplier higher at the cost of consistency.</td></tr>
-                        <tr><td><strong>Budget</strong></td><td>4-Polar Metal + 2-Hormone Punk</td><td>Alternative if you lack good Woodpecker pieces. Hormone Punk's 2-piece gives 10% ATK, which is a serviceable stat stick while farming better discs.</td></tr>
-                    </tbody>
-                </table>
-
-                <h3>Main Stat Recommendations</h3>
-                <ul>
-                    <li><strong>Disc 4:</strong> CRIT Rate or CRIT DMG — aim for a 1:2 ratio. If using Hailstorm Shrine, go CRIT DMG. Otherwise, CRIT Rate is safer.</li>
-                    <li><strong>Disc 5:</strong> Ice DMG Bonus — no alternatives. This is Miyabi's primary damage type and the biggest multiplier source.</li>
-                    <li><strong>Disc 6:</strong> ATK% — Miyabi scales purely off ATK and has no Energy or anomaly needs. ATK% provides the largest consistent damage gain.</li>
-                </ul>
-
-                <h3>Substat Priority</h3>
-                <ol>
-                    <li><strong>CRIT Rate / CRIT DMG</strong> — aim for 60%+ CRIT Rate and 120%+ CRIT DMG as baseline targets</li>
-                    <li><strong>ATK%</strong> — every piece should ideally have ATK% as a substat</li>
-                    <li><strong>Flat ATK</strong> — small but additive; better than DEF or HP</li>
-                    <li><strong>PEN</strong> — niche, only relevant against high-DEF enemies in Shiyu Defense floor 10+</li>
-                </ol>
-
-                <h2>Best Team Compositions</h2>
-                <p>Miyabi works best in teams that can apply frequent Stun, debuff enemies with Ice RES reduction, or provide direct ATK and DMG buffs. Below are her three strongest team archetypes:</p>
-
-                <h3>Premium Mono-Ice Team</h3>
-                <ul>
-                    <li><strong>Miyabi (DPS)</strong> — Main on-field damage dealer</li>
-                    <li><strong>Lycaon (Stun)</strong> — Builds Daze quickly, applies Ice RES shred on stunned enemies</li>
-                    <li><strong>Soukaku (Support)</strong> — Provides massive ATK buffs via her Vortex mechanic and additional Ice DMG amplification</li>
-                </ul>
-                <p>Rotation: Start with Soukaku to build Vortex stacks → swap to Lycaon for Daze buildup → when enemy is stunned, Soukaku's ATK buff → Chain into Miyabi → use EX Special → fully charged Basic for Frostbite Shatter. This rotation consistently delivers 150k+ damage per burst window at high investment.</p>
-
-                <h3>Budget-Friendly Team</h3>
-                <ul>
-                    <li><strong>Miyabi (DPS)</strong></li>
-                    <li><strong>Anby (Stun)</strong> — Free Stun agent, reliable Daze application</li>
-                    <li><strong>Soukaku or Nicole (Support)</strong> — Soukaku for ATK buffs, Nicole for DEF shred and grouping</li>
-                </ul>
-
-                <h3>Flex Team (Non-Ice Synergy)</h3>
-                <ul>
-                    <li><strong>Miyabi (DPS)</strong></li>
-                    <li><strong>Rina (Support)</strong> — PEN Ratio buffs help Miyabi punch through enemy defenses</li>
-                    <li><strong>Caesar (Defense/Stun)</strong> — Shield, ATK buff, and Daze application in one slot. Extremely safe and consistent.</li>
-                </ul>
-
-                <h2>Combat Rotation & Tips</h2>
-                <p>To extract maximum value from Miyabi, you need to understand her Frostbite stacking rhythm. Here is the optimal in-combat flow:</p>
-                <ol>
-                    <li><strong>Opener:</strong> Use Soukaku's EX Special to start building Vortex stacks and buffing the team's ATK. Cancel into Lycaon or your Stun agent.</li>
-                    <li><strong>Daze Phase:</strong> With your Stun agent, apply consistent pressure with Basic Attacks and EX Specials. The goal is to push the enemy into a Stun state as quickly as possible.</li>
-                    <li><strong>Burst Window:</strong> Once the enemy is stunned, immediately trigger Soukaku's Fly the Flag (if using her) for the ATK buff. Perfect Assist or Quick Assist into Miyabi.</li>
-                    <li><strong>Miyabi Combo:</strong> EX Special → Basic Attack string (full 5 hits) → Hold Basic Attack for Frostbite Shatter. At 8 stacks, the fully charged attack hits for up to 800% of ATK as Ice damage.</li>
-                    <li><strong>Ultimate Usage:</strong> Use Miyabi's Ultimate after triggering the Chain Attack but before the Frostbite Shatter. The Ultimate applies max Frostbite stacks instantly, letting you immediately follow with a fully charged attack.</li>
-                    <li><strong>Repeat:</strong> After the burst, swap back to your Stun agent and begin building Daze again. Miyabi's Frostbite stacks persist between swaps, so you can bank them for the next burst window.</li>
-                </ol>
-
-                <p><strong>Key Tips:</strong> Always animation cancel Miyabi's 4th Basic Attack into her EX Special — this saves frames and keeps your combo fluid. Her Dodge Counter is surprisingly strong and should be used offensively, not just defensively. In multi-wave content like Hollow Zero, try to carry Frostbite stacks between waves by holding your Charged Attack until the next group spawns.</p>
-
-                <h2>Mindscape Cinema (Duplicates) Value</h2>
-                <p>Miyabi's Mindscape Cinema levels (M1-M6) provide significant power spikes at key breakpoints:</p>
-                <ul>
-                    <li><strong>M1:</strong> Increases Frostbite max stacks from 8 to 10 and grants 10% Ice RES PEN on Frostbite Shatter. ~15% damage increase. Highly recommended.</li>
-                    <li><strong>M2:</strong> Charged Attack generates 2 additional Energy for the next EX Special. Improves rotation fluidity significantly. ~10% DPS gain.</li>
-                    <li><strong>M4:</strong> Ultimate damage increased by 30% and reduces Ultimate cooldown. Niche but powerful for speedrunning.</li>
-                    <li><strong>M6:</strong> Every 3rd Frostbite Shatter deals 100% increased damage and applies Freeze. Transformative; turns Miyabi into the undisputed best DPS in the game.</li>
-                </ul>
-                <p>For most players, stopping at M1 provides the best cost-to-power ratio. Only pursue M6 if you are fully committed to maining Miyabi long-term.</p>
-
-                <div class="ad-placeholder">[ AD Placeholder — Partner Content ]</div>
-
-                <h2>Frequently Asked Questions</h2>
-                <h3>Q: What is the best W-Engine for Hoshimi Miyabi?</h3>
-                <p>Hoshimi Miyabi's signature W-Engine, Hailstorm Shrine, is her best-in-slot option providing massive Ice DMG Bonus and CRIT stats with a Charged Attack amplification effect. The Battle Pass W-Engine Cannon Rotor and the craftable Starlight Engine are excellent F2P alternatives that still perform competitively.</p>
-
-                <h3>Q: Which Drive Discs should Miyabi use?</h3>
-                <p>The optimal setup is 4-piece Polar Metal and 2-piece Woodpecker Electro. Polar Metal grants Ice DMG Bonus and a substantial ATK buff after using an EX Special or Chain Attack, while Woodpecker Electro provides 8% CRIT Rate which is crucial for her crit-scaling kit.</p>
-
-                <h3>Q: What are Miyabi's best teammates?</h3>
-                <p>Miyabi pairs excellently with Lycaon (Ice Stun) and Soukaku (Ice Support) for a mono-Ice comp. Alternatively, she works well with Rina for PEN Ratio buffs or with Caesar for shields and ATK buffs. Any agent that provides ATK buffs, Ice RES shred, or fast Daze application is an excellent partner.</p>
-
-                <h3>Q: How much CRIT Rate does Miyabi need?</h3>
-                <p>Aim for at least 60% CRIT Rate as a baseline, with an ideal target of 70-75%. Because Miyabi's damage comes in fewer, larger hits (especially her Frostbite Shatter), missing a crit on her Charged Attack is a significant DPS loss. CRIT DMG should be at double your CRIT Rate for optimal ratio.</p>
-
-                <h3>Q: Is Miyabi worth pulling as a new player?</h3>
-                <p>Absolutely. Miyabi is one of the strongest and most self-sufficient DPS agents in the game. She performs well even with F2P gear and accessible teammates like Anby and Soukaku. Her Ice element is universally strong across current content, and she scales exceptionally well with investment.</p>
-
-                <h3>Q: Should I use ATK% or Ice DMG on Disc 5?</h3>
-                <p>Always use Ice DMG Bonus on Disc 5. The damage formula in ZZZ heavily favors Elemental DMG Bonus over ATK% because they occupy different multiplier buckets. Ice DMG Bonus is a separate multiplier that provides significantly more total damage than an equivalent amount of ATK%.</p>
-
-                <h2>References</h2>
-                <ul>
-                    <li><a href="https://www.prydwen.gg/zenless/characters/miyabi" target="_blank" rel="noopener">Prydwen — Miyabi Character Page & Build Guide</a></li>
-                    <li><a href="https://www.reddit.com/r/ZenlessZoneZero/" target="_blank" rel="noopener">r/ZenlessZoneZero — Community Theorycrafting & Discussion</a></li>
-                    <li><a href="https://zenless.hoyoverse.com/en-us/character/detail?agent_id=1" target="_blank" rel="noopener">Official HoYoverse — Miyabi Agent Profile</a></li>
-                    <li><a href="https://genshinlab.com/zzz/miyabi/" target="_blank" rel="noopener">GenshinLab — ZZZ Miyabi Data & Multipliers</a></li>
-                </ul>
-            </div>
-        </article>
-    </main>
-
-    <footer class="site-footer">
-        <div class="container">
-            <p>📌 v1.0 &bull; Updated June 4, 2026</p>
-        </div>
-    </footer>
-  <!-- 🌐 Game Guide Network -->
-  <footer class="site-network" style="margin-top:3rem;padding:1.5rem;background:#1a1a2e;border-radius:8px;text-align:center">
-    <p style="color:#aaa;font-size:0.85rem;margin-bottom:0.8rem">🎮 攻略网络 — More Game Guides</p>
-    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.6rem">
-      <a href="https://chjiya.github.io/teyvat-guide/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">原神 Genshin</a>
-      <a href="https://chjiya.github.io/hsr-guide/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">星铁 HSR</a>
-      <a href="https://chjiya.github.io/zzz-guide/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">绝区零 ZZZ</a>
-      <a href="https://chjiya.github.io/sr-guide-en/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">HSR (EN)</a>
-      <a href="https://chjiya.github.io/enshin-guide-en/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">Genshin (EN)</a>
-      <a href="https://chjiya.github.io/zzz-guide-en/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">ZZZ (EN)</a>
+  <div class="article-header">
+    <h1>❄️ Hoshimi Miyabi – Complete Build Guide</h1>
+    <div class="article-meta">
+      <span class="version-badge">📌 v1.4</span>
+      <span>Updated 2026-06-07</span>
+      <span>Ice · Anomaly</span>
+      <span>S-Rank</span>
     </div>
-  </footer>
+  </div>
+
+  <nav class="quick-nav">
+    <h4>📑 Table of Contents</h4>
+    <ul>
+      <li><a href="#overview">Character Overview</a></li>
+      <li><a href="#wengine">Best W-Engine</a></li>
+      <li><a href="#drivedisc">Drive Disc Recommendations</a></li>
+      <li><a href="#skills">Skill Priority</a></li>
+      <li><a href="#teams">Team Compositions</a></li>
+      <li><a href="#playstyle">Playstyle & Rotation</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </nav>
+
+  <div class="article-content">
+
+    <section id="overview">
+      <h2>📋 Character Overview</h2>
+      <p><strong>Hoshimi Miyabi</strong> is an <strong>S-rank Ice Anomaly character</strong> in Zenless Zone Zero and the Section 6 (H.A.N.D.) commander. She is widely recognized as one of the strongest characters in the game, featuring a unique <strong>Frostburn</strong> mechanic — an enhanced Ice anomaly that only she can trigger. Unlike standard Freeze (which merely immobilizes enemies and deals minor shatter damage), Frostburn applies a stacking CRIT DMG amplification and culminates in a massive AOE ice explosion called <strong>Frostburn Break</strong>.</p>
+
+      <p>Miyabi's core gameplay revolves around building Ice anomaly accumulation through her Special Attack: Iai Slash, a three-charge technique. The first slash is a close-range vertical cut, the second extends the range horizontally, and the third is a full-screen ice explosion that instantly triggers Frostburn Break. Her charged Special Attack has three levels: Level 1 (1 stack — 180% Anomaly build-up), Level 2 (2 stacks — 360%), and Level 3 (3 stacks — 720% with guaranteed Frostburn). Each Frostburn Break deals approximately 1,200% of her ATK as Ice damage in a large area.</p>
+
+      <p><strong>Strengths:</strong> Highest Ice anomaly build-up rate in the game (approximately 40% faster than any other Ice character); massive burst AOE damage through Frostburn Break; flexible team building; exceptional in both mob-clearing and boss scenarios. <strong>Weaknesses:</strong> Requires precise timing for her charged slashes — mistiming leaves her vulnerable during the 1.2-second charge animation; lower sustained damage compared to traditional Attack characters; relies heavily on her Special Attack for the majority of her damage output (about 65% of total damage comes from EX Special + Frostburn procs).</p>
+
+      <div class="info-card">
+        <h4>Base Stats (Lv. 60)</h4>
+        <div class="stat"><span class="stat-label">HP</span><span class="stat-value">7,200</span></div>
+        <div class="stat"><span class="stat-label">ATK</span><span class="stat-value">702</span></div>
+        <div class="stat"><span class="stat-label">DEF</span><span class="stat-value">505</span></div>
+        <div class="stat"><span class="stat-label">CRIT Rate</span><span class="stat-value">5% + 12% (Core Passive)</span></div>
+        <div class="stat"><span class="stat-label">CRIT DMG</span><span class="stat-value">50%</span></div>
+        <div class="stat"><span class="stat-label">Anomaly Proficiency</span><span class="stat-value">118</span></div>
+      </div>
+    </section>
+
+    <section id="wengine">
+      <h2>🔧 Best W-Engine (Weapon)</h2>
+      <table class="build-table">
+        <thead>
+          <tr><th>Priority</th><th>W-Engine</th><th>Rarity</th><th>Details</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="best">🥇 Best</td>
+            <td>Hailstorm Shrine</td>
+            <td>S</td>
+            <td>Miyabi's signature W-Engine. Provides Ice DMG% and CRIT DMG% bonuses that scale with Anomaly Proficiency. Most importantly, it grants additional damage amplification against enemies in Frostburn state — which is Miyabi's primary damage window. Total damage increase over the next best option is approximately 22%. This is the single highest priority upgrade for Miyabi.</td>
+          </tr>
+          <tr>
+            <td class="alt">🥈 Alternative</td>
+            <td>Rainforest Gourmet</td>
+            <td>A</td>
+            <td>Standard banner A-rank option. Provides ATK% and Anomaly build-up efficiency, directly accelerating Frostburn Break frequency. At refinement 5, it closes the gap to roughly 85% of Hailstorm Shrine's performance. This is the go-to choice for F2P players and anyone who missed the signature banner.</td>
+          </tr>
+          <tr>
+            <td class="alt">🥉 Alternative</td>
+            <td>Electro-Lip Gloss</td>
+            <td>A</td>
+            <td>Battle Pass option. Converts Anomaly Proficiency into bonus damage — provides roughly 18% more damage than Rainforest Gourmet at equivalent refinement but costs money (BP). Good for spenders who didn't pull the signature W-Engine.</td>
+          </tr>
+          <tr>
+            <td class="alt">🔄 F2P Starter</td>
+            <td>Bashful Demon</td>
+            <td>A</td>
+            <td>General-purpose A-rank Anomaly W-Engine. Provides ATK% and energy on dodges. Works as a placeholder until you get Rainforest Gourmet or Hailstorm Shrine. Roughly 60% of signature performance at R1.</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="tip-box highlight-box">
+        <p>💡 If you can only afford one limited investment for Miyabi, prioritize Hailstorm Shrine over Mindscapes. The ~22% damage gain from her signature W-Engine outpaces the ~15% gain from M1, making M0 + weapon the optimal budget configuration.</p>
+      </div>
+    </section>
+
+    <section id="drivedisc">
+      <h2>💿 Drive Disc Recommendations</h2>
+
+      <h3>Best Set: Polar Metal (4-Piece) + Freedom Blues (2-Piece)</h3>
+      <p><strong>Polar Metal 4-Piece:</strong> Increases Ice DMG by 10%. While enemies are in Frost state (Frostburn active), CRIT DMG increases by an additional 30%. This set was practically designed for Miyabi — her entire damage identity revolves around being in Frostburn state, so the conditional CRIT DMG bonus has nearly 100% uptime during her active phases.</p>
+      <p><strong>Freedom Blues 2-Piece:</strong> Increases Anomaly Proficiency by 30. Anomaly Proficiency directly affects Frostburn build-up speed and the base damage of Frostburn Break. With Freedom Blues, Miyabi reaches approximately 148 Anomaly Proficiency from set bonuses alone, which translates to roughly 18% faster anomaly accumulation.</p>
+
+      <h3>Main Stat Priority</h3>
+      <table class="build-table">
+        <thead>
+          <tr><th>Slot</th><th>Main Stat</th><th>Explanation</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Slot IV</td><td class="best">CRIT DMG (priority) / CRIT Rate</td><td>Miyabi's Core Passive provides 12% CRIT Rate, making it easier to reach the 60-70% CRIT Rate threshold. Prioritize CRIT DMG to maximize Frostburn Break damage. Use CRIT Rate if you're below 50% CRIT Rate without it.</td></tr>
+          <tr><td>Slot V</td><td class="best">Ice DMG Bonus</td><td>The standard choice for any Ice DPS. Ice DMG% multiplies all of Miyabi's damage and has no competition for this slot.</td></tr>
+          <tr><td>Slot VI</td><td class="best">Anomaly Proficiency / ATK%</td><td>Anomaly Proficiency is preferred for faster Frostburn rotations and higher Frostburn Break damage. ATK% is a viable alternative if your artifact luck gives you better ATK% pieces — the damage difference is approximately 5% in favor of Anomaly Proficiency at similar substat quality.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Substat Priority</h3>
+      <p>CRIT DMG > CRIT Rate > ATK% > Anomaly Proficiency > PEN</p>
+    </section>
+
+    <section id="skills">
+      <h2>⭐ Skill Priority</h2>
+      <table class="build-table">
+        <thead>
+          <tr><th>Priority</th><th>Skill</th><th>Explanation</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="priority-badge priority-s">S+ Highest</span></td>
+            <td>Special Attack · Iai Slash</td>
+            <td>Miyabi's most important skill by a wide margin. The charged Iai Slash (3 levels) accounts for roughly 50-55% of her total damage output. Each level increases Anomaly build-up multiplicatively — Level 3 Iai Slash with full charges applies 720% Anomaly build-up and guarantees Frostburn Break. Level 12 priority — this skill alone determines your overall Miyabi performance.</td>
+          </tr>
+          <tr>
+            <td><span class="priority-badge priority-s">S Highest</span></td>
+            <td>Chain Attack</td>
+            <td>Accounts for approximately 18-22% of total damage and applies significant Ice Anomaly build-up. Triggers frequently in stun-oriented teams. Level 9-12 recommended.</td>
+          </tr>
+          <tr>
+            <td><span class="priority-badge priority-a">A High</span></td>
+            <td>Ultimate</td>
+            <td>Full-screen Ice damage burst with high multiplier. Typically used after a Level 3 Iai Slash to maximize damage during the stun window. Level 11 is the resource-efficient stopping point.</td>
+          </tr>
+          <tr>
+            <td><span class="priority-badge priority-a">A High</span></td>
+            <td>Basic Attack</td>
+            <td>Used for energy generation and maintaining Anomaly build-up during skill cooldowns. Damage contribution is roughly 15% of total. Level 7-9 is sufficient.</td>
+          </tr>
+          <tr>
+            <td><span class="priority-badge priority-b">B Low</span></td>
+            <td>Dodge</td>
+            <td>Dodge Counter applies a small Ice anomaly. Mostly a defensive tool. Level 6.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="teams">
+      <h2>🤝 Team Compositions</h2>
+      <p>Miyabi is remarkably flexible in team building. Her high base Frostburn efficiency means she doesn't strictly need ice resonance to perform, though it certainly helps.</p>
+
+      <div class="synergy-teams">
+        <div class="synergy-team">
+          <h4>🥇 Mono-Ice Dream Team (Best)</h4>
+          <p><strong>Miyabi + Lycaon + Soukaku</strong></p>
+          <p>The undisputed best team for Miyabi. Lycaon provides Ice RES shred (25%) and the fastest stun application among Ice characters, creating perfect damage windows for Miyabi's charged slashes. Soukaku provides massive ATK buffs (up to 1,000 ATK at high investment) and Ice DMG% from her Core Passive. The triple Ice resonance boosts CRIT Rate by an additional 15%. Rotation: Soukaku E + Q to buff → Lycaon stun rotation → Miyabi swaps in during stun window → Level 3 Iai Slash → Frostburn Break → Ultimate. This team is the current speedrun meta for Shiyu Defense Floor 15.</p>
+        </div>
+        <div class="synergy-team">
+          <h4>🥈 Disorder Hybrid (High Damage)</h4>
+          <p><strong>Miyabi + Grace + Rina</strong></p>
+          <p>This team leverages the Disorder reaction — when two different anomalies (Ice + Electric) are applied simultaneously, they trigger Disorder which deals multiplicative damage equal to 150% of both anomalies' remaining damage. Grace applies Shock quickly with her electric grenades, then Miyabi applies Frostburn to trigger Disorder. Rina provides PEN% for the entire team, amplifying both the Shock and Frostburn damage. This team has higher theoretical damage than Mono-Ice but requires precise rotation management — mistiming the anomaly application wastes the Disorder window. At high investment, this team can out-damage the Mono-Ice variant by roughly 8-10% in sustained fights.</p>
+        </div>
+        <div class="synergy-team">
+          <h4>🥉 Stun Burst (Beginner Friendly)</h4>
+          <p><strong>Miyabi + Qingyi + Soukaku</strong></p>
+          <p>Qingyi provides the fastest stun application in the game, creating extended damage windows. Soukaku handles ATK buffing. This team is easier to play than the Disorder variant — just stun and nuke. The damage is slightly lower than Mono-Ice (about 10-12% less) because you lose the Ice RES shred from Lycaon, but the consistency makes it a great choice for players still learning Miyabi's charged slash timing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="playstyle">
+      <h2>🎮 Playstyle & Rotation</h2>
+      <p>Mastering Miyabi is about <strong>timing your Iai Slash charges</strong> perfectly with stun windows:</p>
+      <ol>
+        <li><strong>Setup Phase:</strong> Open with your support (Soukaku or Rina) to apply buffs. Swap to your stunner to build daze gauge.</li>
+        <li><strong>Pre-Charge:</strong> When the enemy's daze bar is in the red zone (about 70-80%), swap to Miyabi and begin charging her Special Attack. The goal is to have 3 stacks ready the moment the enemy enters stun state.</li>
+        <li><strong>Burst Phase:</strong> During the stun window, release the Level 3 Iai Slash. The third slash triggers Frostburn Break, dealing massive AOE Ice damage. Immediately follow up with Ultimate if available.</li>
+        <li><strong>Clean Up:</strong> Use Chain Attack procs to apply additional Ice anomaly build-up for the next Frostburn cycle. Swap back to support/stunner to begin the next rotation.</li>
+        <li><strong>Energy Management:</strong> Miyabi generates approximately 2.5 Energy per second from her passive while off-field. Use EX Special Attack (the enhanced version that costs Energy) when you need faster anomaly build-up — it applies 50% more anomaly per hit than the uncharged version.</li>
+      </ol>
+      <div class="warning-box highlight-box">
+        <p>⚠️ Critical Warning: Miyabi is NOT invincible during her Iai Slash charge animation (1.2 seconds for full charge). Do NOT charge in the middle of enemy attack patterns. Always charge during stun windows, after dodging, or during Chain Attack invulnerability frames.</p>
+      </div>
+      <div class="tip-box highlight-box">
+        <p>💡 Advanced Tech: During Chain Attack animations, Miyabi can buffer her Special Attack input. This means she starts the Iai Slash charge during the Chain Attack invulnerability and exits the animation with a pre-charged slash. This is the speedrun tech that enables back-to-back Frostburn Breaks in consecutive stun windows.</p>
+      </div>
+    </section>
+
+    <section id="faq">
+      <h2>❓ FAQ</h2>
+      <div class="faq-item">
+        <div class="faq-q">Q1: Can Miyabi perform well at Mindscape 0? Do I need her signature W-Engine?</div>
+        <div class="faq-a"><p>Yes, Miyabi at M0 is fully functional — her entire Frostburn kit is complete without Mindscapes. M1 increases Frostburn build-up by about 15% for faster rotations, and M2 is a major upgrade that makes Frostburn permanent and adds 30% CRIT DMG. However, her signature W-Engine Hailstorm Shrine provides approximately 22% total damage increase, making it the best investment. The recommended budget path is M0 + signature W-Engine rather than higher Mindscapes without it.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Q2: Why Polar Metal 4-piece and not a full ice set?</div>
+        <div class="faq-a"><p>Polar Metal 4-piece gives 10% Ice DMG + 30% CRIT DMG during Frost state — this perfectly matches Miyabi's damage pattern. The full ice set's bonuses are weaker for Anomaly characters because their damage formula favors Anomaly Proficiency and CRIT DMG more than flat DMG%. The 30% CRIT DMG bonus from Polar Metal translates to roughly 18% more Frostburn Break damage, which is Miyabi's primary nuke.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Q3: What's the difference between Miyabi and Ellen Joe?</div>
+        <div class="faq-a"><p>Both are S-rank Ice characters but with fundamentally different roles. Miyabi is an Ice Anomaly character specializing in burst through Frostburn procs — she builds Ice anomaly fast, triggers Frostburn for huge AOE explosions, then repeats. Ellen Joe is an Ice Attack character focused on sustained damage through Afterimage stacks — she stays on field longer, building up stacks via normal attacks and releasing Final Cut. Miyabi has higher burst and faster clear times in Shiyu Defense; Ellen has smoother sustained DPS and simpler gameplay. Current meta favors Miyabi for speed clears.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Q4: What if I don't have Lycaon or Soukaku?</div>
+        <div class="faq-a"><p>Without Lycaon, use Qingyi as your stunner — she provides the fastest general stun application and creates solid damage windows. Without Soukaku, use Nicole for universal DEF shred or Lucy for ATK buffing. Even a budget team of Miyabi + Anby + Nicole clears all story content and most endgame content at reasonable investment. Miyabi's high base Anomaly Proficiency (118) and fast anomaly build-up make her self-sufficient enough to perform without ideal supports.</p></div>
+      </div>
+    </section>
+
+    <section class="references">
+      <h3>📖 References</h3>
+      <ol>
+        <li><a href="https://www.prydwen.gg/zenless/characters/miyabi" target="_blank" rel="noopener">Prydwen - Hoshimi Miyabi Build Guide</a></li>
+        <li><a href="https://zenless.hoyoverse.com/en/character/detail" target="_blank" rel="noopener">HoYoverse - Official ZZZ Character Details</a></li>
+        <li><a href="https://wiki.hoyolab.com/zzz/character/miyabi/overview" target="_blank" rel="noopener">HoYoWiki - Hoshimi Miyabi Overview</a></li>
+      </ol>
+    </section>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <p>ZZZ Guide EN © 2026 · Community-maintained unofficial fan site · Game content © HoYoverse</p>
+</footer>
+
 </body>
 </html>
