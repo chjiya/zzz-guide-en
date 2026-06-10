@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/zzz-guide-en/">
+  <title>Yanagi Disorder Team Guide – Best Builds & Rotation | ZZZ Guide</title>
+  <meta name="description" content="Complete Yanagi Disorder team guide for Zenless Zone Zero. Best team compositions, W-Engines, Drive Discs, rotation guides, and F2P alternatives for the S-rank Electric Anomaly agent.">
+  <meta name="keywords" content="ZZZ Yanagi team, Yanagi Disorder guide, Yanagi build, Zenless Zone Zero Yanagi, Yanagi Burnice team, Yanagi anomaly team, Yanagi W-Engine">
+  <link rel="canonical" href="https://chjiya.github.io/zzz-guide-en/guides/best-teams/yanagi-disorder-team.html">
+  <link rel="stylesheet" href="../../css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Yanagi Disorder Team Guide – Best Builds, Teammates & Rotation",
+    "description": "Comprehensive guide to building Yanagi Disorder teams in ZZZ. Covers premium and F2P setups, optimal rotations, stat priorities, and team synergy analysis.",
+    "datePublished": "2026-06-10",
+    "dateModified": "2026-06-10",
+    "inLanguage": "en-US",
+    "author": { "@type": "Organization", "name": "ZZZ Guide EN" },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://chjiya.github.io/zzz-guide-en/guides/best-teams/yanagi-disorder-team.html" }
+  }
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4B26RL1D24"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4B26RL1D24');
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../../index.html" class="site-logo">🎮 ZZZ Guide EN</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../characters/caesar.html">Characters</a></li>
+        <li><a href="../best-teams/yanagi-disorder-team.html" class="active">Team Guides</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <div class="breadcrumb">
+    <a href="../../index.html">Home</a> › <a href="../best-teams/yanagi-disorder-team.html">Team Guides</a> › Yanagi Disorder
+  </div>
+
+  <div class="article-header">
+    <h1>⚡ Yanagi – Complete Disorder Team Guide</h1>
+    <div class="article-meta">
+      <span class="version-badge">📌 v1.4</span>
+      <span>Updated 2026-06-10</span>
+      <span>Electric · Anomaly</span>
+      <span>Disorder Specialist</span>
+    </div>
+  </div>
+
+  <nav class="quick-nav">
+    <h4>📑 Table of Contents</h4>
+    <ul>
+      <li><a href="#overview">Yanagi Overview & Core Mechanics</a></li>
+      <li><a href="#how-disorder-works">How Yanagi's Disorder Works</a></li>
+      <li><a href="#premium-team">Premium Team: Yanagi + Burnice + Caesar</a></li>
+      <li><a href="#f2p-team">F2P Team: Yanagi + Piper + Seth</a></li>
+      <li><a href="#mono-electric">Mono-Electric Team</a></li>
+      <li><a href="#yanagi-build">Yanagi Build: W-Engines & Drive Discs</a></li>
+      <li><a href="#stat-priority">Stat Priority & Substats</a></li>
+      <li><a href="#rotation">Rotation Deep Dive</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+  </nav>
+
+  <div class="article-content">
+
+    <section id="overview">
+      <h2>📋 Yanagi Overview & Core Mechanics</h2>
+      <p><strong>Yanagi</strong> is an <strong>S-rank Electric Anomaly</strong> agent who specializes in <strong>Disorder damage</strong> — a reaction that triggers when two different Anomaly statuses are applied to the same enemy, consuming both to deal massive burst damage. What makes Yanagi unique is that her EX Special Attack and Ultimate can <strong>trigger Disorder on command</strong>, even when the secondary anomaly hasn't fully built up yet. This gives her unparalleled control over Disorder timing compared to other anomaly agents who must wait for the anomaly gauge to fill naturally.</p>
+
+      <p>Yanagi's kit revolves around her <strong>Polychrome Thunder</strong> state, which activates after using her EX Special or Ultimate. In this state, her Basic Attacks are enhanced with additional Electric anomaly buildup (approximately 40% more than her normal attacks), and every 3rd enhanced attack applies a stacking Electric shock effect that increases the target's damage taken from Electric attacks by 8%, stacking up to 3 times (24% total).</p>
+
+      <p><strong>Why Yanagi excels in Disorder teams:</strong> Most anomaly agents (Piper, Burnice, Jane Doe) apply their primary element and must wait for the second element's anomaly to build up naturally before Disorder procs. Yanagi's passive — <strong>Thunder's Echo</strong> — allows her EX Special to treat the target as if it has been afflicted with <strong>both</strong> elements for the purpose of Disorder calculation. This means Yanagi can trigger Disorder even if only one anomaly is fully built, effectively doubling her Disorder uptime compared to other compositions.</p>
+    </section>
+
+    <section id="how-disorder-works">
+      <h2>⚙️ How Yanagi's Disorder Works – Damage Formula</h2>
+      <p>Understanding the math behind Yanagi's Disorder damage is key to building her effectively. The base Disorder damage formula is:</p>
+      <p><code>Disorder DMG = (Anomaly DMG of Primary Element × 0.5) + (Anomaly DMG of Secondary Element × 0.5) × (1 + 0.25 × Disorder Multiplier)</code></p>
+      <p>The <strong>Disorder Multiplier</strong> is increased by Yanagi's Anomaly Proficiency and certain Drive Disc bonuses. At 200 Anomaly Proficiency, the multiplier is approximately 2.5x, meaning each Disorder proc deals roughly 2.5 times the damage of a single anomaly proc.</p>
+
+      <table class="build-table">
+        <thead>
+          <tr><th>Anomaly Proficiency</th><th>Disorder Multiplier</th><th>Est. Disorder DMG (ATK 2,800)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>120</td><td>1.8x</td><td>~12,000</td></tr>
+          <tr><td>160</td><td>2.2x</td><td>~17,500</td></tr>
+          <tr><td>200</td><td>2.5x</td><td>~22,000</td></tr>
+          <tr><td>240</td><td>2.8x</td><td>~27,000</td></tr>
+          <tr><td>280</td><td>3.0x</td><td>~31,000</td></tr>
+        </tbody>
+      </table>
+
+      <p>As the table shows, every 40 points of Anomaly Proficiency roughly translates to 15-18% more Disorder damage. This makes Anomaly Proficiency Yanagi's most important stat — even ahead of ATK% — up to the 200-220 soft cap where diminishing returns begin.</p>
+    </section>
+
+    <section id="premium-team">
+      <h2>👑 Premium Team: Yanagi + Burnice + Caesar</h2>
+      <p>This is widely considered the <strong>best overall team</strong> in ZZZ's current meta for sustained damage content like Shiyu Defense. The synergy is straightforward: Burnice applies off-field Fire anomaly, Yanagi triggers Disorder on command, and Caesar provides unmatched survivability and a 1,000 ATK buff.</p>
+
+      <table class="build-table">
+        <thead>
+          <tr><th>Agent</th><th>Role</th><th>W-Engine (Best)</th><th>W-Engine (F2P)</th><th>Drive Discs</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Yanagi</td><td>Disorder Trigger</td><td>Timeweave (S)</td><td>Rainforest Gourmet (A) R5</td><td>4 Thunder Metal + 2 Freedom Blues</td></tr>
+          <tr><td>Burnice</td><td>Off-field Fire Anomaly</td><td>Flamemaker (S)</td><td>Electro-Lip Gloss (A) R5</td><td>4 Chaos Jazz + 2 Freedom Blues</td></tr>
+          <tr><td>Caesar</td><td>Shield + ATK Buff</td><td>Red Moccus (S)</td><td>Peacekeeper (A) R5</td><td>4 Protective Harmony + 2 Swing Jazz</td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>Performance Benchmarks (Shiyu Defense Critical Nodes):</strong> At M0 with full A-rank W-Engines: 90-110 seconds. At M0 with signature W-Engines: 65-80 seconds. At M1-M2 with signatures: 50-65 seconds. This team comfortably clears any current endgame content with S-rank time thresholds.</p>
+
+      <p><strong>Why this team is so strong:</strong> Burnice's Afterburn applies a Fire DoT that ticks every 2 seconds for 10 seconds, constantly building Fire anomaly gauge. Yanagi's EX Special (which she can use every 6-8 seconds with proper Energy management) triggers Disorder on the Fire gauge while building Electric gauge simultaneously. The result is approximately 8-12 Disorder procs over a 90-second fight, each dealing 20,000-30,000 damage. Caesar's shield ensures neither Yanagi (who needs to stay on-field during Polychrome Thunder) nor Burnice (who has no self-sustain) ever get interrupted.</p>
+    </section>
+
+    <section id="f2p-team">
+      <h2>🆓 F2P Team: Yanagi + Piper + Seth</h2>
+      <p>If you don't have Burnice and Caesar, this budget lineup still leverages Yanagi's Disorder capabilities effectively. Piper provides on-field Physical anomaly buildup (she spins to build Assault), while Seth provides anomaly proficiency and secondary shield support.</p>
+
+      <table class="build-table">
+        <thead>
+          <tr><th>Agent</th><th>Role</th><th>W-Engine (F2P)</th><th>Drive Discs</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Yanagi</td><td>Disorder Trigger / Secondary DPS</td><td>Rainforest Gourmet (A) R5</td><td>4 Thunder Metal + 2 Freedom Blues</td></tr>
+          <tr><td>Piper</td><td>On-field Physical Anomaly</td><td>Fusion Booster (A) R5 / Weeping Gemini (A) R5</td><td>4 Fanged Metal + 2 Freedom Blues</td></tr>
+          <tr><td>Seth</td><td>Defense / Anomaly Support</td><td>Peacekeeper (A) R5 / Big Cylinder (A) R5</td><td>4 Protective Harmony + 2 Swing Jazz</td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>Performance:</strong> 140-170 seconds on Shiyu Defense Critical Nodes. This team is slower than the premium variant because Piper needs 3-4 seconds of spin time per rotation to build Physical anomaly, and Yanagi must wait for the Physical gauge to be high before her Disorder trigger is valuable. However, the team is extremely accessible — all three characters can be obtained without pulling on limited banners (Yanagi is the only limited S-rank).</p>
+
+      <p><strong>Rotation:</strong> Seth → EX Special for shield → Piper → spin until Assault procs → Yanagi → EX Special for Disorder → refresh Piper's spin. This is a 2-anomaly system (Physical + Electric) rather than the 3-anomaly system available to the premium team, resulting in roughly 40% fewer Disorder procs per fight.</p>
+    </section>
+
+    <section id="mono-electric">
+      <h2>🔋 Mono-Electric Team</h2>
+      <p>If you lack a second anomaly agent entirely, Yanagi can function as a <strong>hypercarry</strong> in a mono-Electric team. This team forgoes Disorder entirely and focuses on maximizing Yanagi's personal Electric anomaly damage and the Electric Shock stacking mechanic.</p>
+
+      <table class="build-table">
+        <thead>
+          <tr><th>Agent</th><th>Role</th><th>Build Focus</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Yanagi</td><td>Main DPS</td><td>ATK% > Anomaly Proficiency > PEN Ratio. Use 4 Thunder Metal + 2 Hormone Punk.</td></tr>
+          <tr><td>Grace (A)</td><td>Electric Anomaly Battery</td><td>4 Freedom Blues + 2 Swing Jazz. Focus on Energy Regen to spam EX Specials for Electric buildup.</td></tr>
+          <tr><td>Rina (S) / Nicole (A)</td><td>Support</td><td>Rina provides PEN buff and Electric synergy. Nicole provides DEF shred (24% at M6).</td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>Performance:</strong> 120-150 seconds on Shiyu Defense. The mono-Electric team is significantly cheaper than the premium Disorder variant (only one limited S-rank needed) and performs respectably against enemies weak to Electric. However, it lacks the burst damage that makes Yanagi's Disorder teams so powerful — you're trading 20,000+ Disorder procs for more consistent 8,000-12,000 Electric anomaly ticks.</p>
+    </section>
+
+    <section id="yanagi-build">
+      <h2>⚙️ Yanagi Build: W-Engines & Drive Discs</h2>
+
+      <h3>W-Engine Ranking</h3>
+      <table class="build-table">
+        <thead>
+          <tr><th>Tier</th><th>W-Engine</th><th>Rarity</th><th>Relative Performance</th><th>Notes</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>S</td><td>Timeweave</td><td>S</td><td>100%</td><td>Yanagi's signature. 30% Anomaly Proficiency + 25% Disorder DMG. The passives perfectly match her kit.</td></tr>
+          <tr><td>A</td><td>Rainforest Gourmet</td><td>A</td><td>82%</td><td>Energy Regen + ATK% when EX Special hits. Best F2P option. R5 is competitive with R0 signature.</td></tr>
+          <tr><td>A</td><td>Fusion Booster</td><td>A</td><td>76%</td><td>Anomaly Proficiency substat but no Disorder-specific bonus. Good stat stick.</td></tr>
+          <tr><td>B</td><td>Weeping Gemini</td><td>A</td><td>72%</td><td>Increases anomaly buildup on EX hit. Budget pick for extra Disorder frequency.</td></tr>
+          <tr><td>C</td><td>Weeping Cradle</td><td>B</td><td>58%</td><td>Free starter option. Replace as soon as possible.</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Drive Disc Sets</h3>
+      <p><strong>Best Set:</strong> 4-piece Thunder Metal + 2-piece Freedom Blues. Thunder Metal increases Electric DMG by 10% and, when hitting an enemy affected by Electric anomaly, increases the attacker's ATK by 20% for 12 seconds. This is a near-permanent buff for Yanagi since she constantly applies Electric anomaly. Freedom Blues 2-piece adds 30 Anomaly Proficiency, which directly increases Disorder damage.</p>
+
+      <p><strong>Alternative Set:</strong> 4-piece Chaos Jazz (if using Yanagi as a quickswap DPS in the premium team). Chaos Jazz increases EX Special DMG by 15% and, when hitting an enemy with EX Special, increases the equipping character's ATK by 8% per stack (up to 3 stacks). This set is better for Yanagi in the premium team where she swaps in → EX Special → swaps out, rather than staying on-field.</p>
+    </section>
+
+    <section id="stat-priority">
+      <h2>📊 Stat Priority & Substats</h2>
+      <table class="build-table">
+        <thead>
+          <tr><th>Slot</th><th>Main Stat (Disorder)</th><th>Main Stat (Hypercarry)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Slot IV</td><td>Anomaly Proficiency</td><td>ATK%</td></tr>
+          <tr><td>Slot V</td><td>PEN Ratio / Electric DMG%</td><td>Electric DMG%</td></tr>
+          <tr><td>Slot VI</td><td>ATK% / Energy Regen</td><td>ATK%</td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>Substat Priority (Disorder build):</strong> Anomaly Proficiency (until 200-220) > ATK% > PEN Ratio > Energy Regen (until ~1.8/s) > Crit Rate/DMG (low priority — Yanagi is not a crit-based DPS).</p>
+      <p><strong>Substat Priority (Hypercarry build):</strong> ATK% > PEN Ratio > Anomaly Proficiency > Crit Rate/DMG > Energy Regen.</p>
+
+      <p><strong>Key Threshold:</strong> Aim for 200+ Anomaly Proficiency on the Disorder build. Below 180, your Disorder damage falls off significantly (see the damage table above). With a Slot IV Anomaly Proficiency main stat (93 base), plus 30 from Freedom Blues 2-piece, plus substat rolls, 200+ is achievable without her signature W-Engine.</p>
+    </section>
+
+    <section id="rotation">
+      <h2>🔄 Rotation Deep Dive (Premium Team)</h2>
+      <ol>
+        <li><strong>Fight Start (Caesar):</strong> EX Special → shield (8s) + ATK buff (12s) → immediate swap to Burnice.</li>
+        <li><strong>Burnice Setup (2s):</strong> EX Special → Afterburn applied (Fire DoT for 10s) → swap to Yanagi.</li>
+        <li><strong>Yanagi On-field (6-8s):</strong> Basic Attack x3 to enter Polychrome Thunder state → enhanced Basic Attack chain (builds Electric gauge) → when you see Fire gauge is 60-80% full (the burning indicator on the enemy's HP bar), use EX Special → this triggers Disorder (Fire + Electric) → Yanagi gains Energy from Thunder's Echo → continue Basic Attacks to build Electric gauge for next rotation.</li>
+        <li><strong>Refresh:</strong> At ~10s mark, Caesar's shield timer is running low → swap to Caesar → EX Special → refresh shield → swap to Burnice → EX Special → refresh Afterburn → swap to Yanagi → repeat.</li>
+      </ol>
+
+      <div class="tip-box highlight-box">
+        <p>💡 <strong>Advanced Tech:</strong> Yanagi's EX Special has two versions — a short tap (~40 Energy) and a long hold (~80 Energy). The long hold version applies significantly more Electric anomaly buildup and triggers a stronger Disorder. Use the held version when the enemy has a high anomaly gauge on the secondary element for maximum Disorder damage. Use the tap version for quick Disorder triggers when energy is low.</p>
+      </div>
+    </section>
+
+    <section id="faq">
+      <h2>❓ FAQ</h2>
+      <div class="faq-item">
+        <div class="faq-q">Q1: Is Yanagi worth pulling? How does she compare to other anomaly agents?</div>
+        <div class="faq-a"><p>Yanagi is absolutely worth pulling if you want to play Disorder teams. She is the only character in ZZZ who can trigger Disorder on command (rather than waiting for natural buildup), which makes her the most consistent Disorder trigger in the game. Compared to Burnice (pure off-field anomaly application) or Jane Doe (pure on-field hypercarry), Yanagi offers a unique blend of on-field damage and off-field disorder synergy. If you own Caesar and/or Burnice, Yanagi is a top-tier pull.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Q2: Can Yanagi work with Jane Doe?</div>
+        <div class="faq-a"><p>Yes, Yanagi + Jane Doe is a strong Disorder core. Jane Doe applies Physical anomaly rapidly through her dodge counter and enhanced Basic Attacks, while Yanagi triggers Disorder. However, both characters want significant on-field time, which creates competition. The team typically runs Jane as the primary on-field DPS and Yanagi as a quickswap Disorder bot — Yanagi swaps in → EX Special → swaps out. This team clears Shiyu Defense in approximately 100-130 seconds, slightly slower than Yanagi + Burnice but comparable.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Q3: What's Yanagi's best W-Engine if I don't have Timeweave?</div>
+        <div class="faq-a"><p>Rainforest Gourmet at R5 is Yanagi's best F2P option. It provides Energy Regen (helping her maintain Disorder rotation) and ATK% scaling. Fusion Booster is a close second — it provides Anomaly Proficiency as a main stat but lacks the Energy Regen that Yanagi needs for consistent EX Special usage. Between the two, Rainforest Gourmet R5 is superior in practice because more EX Specials = more Disorders = more damage, even though Fusion Booster shows higher theoretical single-hit numbers.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Q4: What Battle Pass W-Engines should I look for?</div>
+        <div class="faq-a"><p>The S-rank Battle Pass W-Engine <strong>Brimstone</strong> is a good general-purpose option for Yanagi — it provides ATK% and a stacking ATK buff on hit. However, it's not specifically designed for anomaly characters and underperforms compared to Rainforest Gourmet R5 for Disorder teams. I would not recommend buying the Battle Pass specifically for Yanagi — save your money for limited W-Engine banners instead. The A-rank Battle Pass W-Engine <strong>Styletto</strong> (Crit Rate for Attack characters) is not useful for Yanagi.</p></div>
+      </div>
+    </section>
+
+    <div id="amazon-affiliate">
+      <p>🎮 Looking for gaming gear? Check our recommended controllers and accessories on Amazon.</p>
+    </div>
+
+    <section class="references">
+      <h3>📖 References</h3>
+      <ol>
+        <li><a href="https://www.prydwen.gg/zenless/characters/yanagi" target="_blank" rel="noopener">Prydwen - Yanagi Build Guide</a></li>
+        <li><a href="https://www.prydwen.gg/zenless/teams" target="_blank" rel="noopener">Prydwen - ZZZ Team Compositions</a></li>
+      </ol>
+    </section>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <p>ZZZ Guide EN © 2026 · Community-maintained unofficial fan site · Game content © HoYoverse</p>
+</footer>
+
+</body>
+</html>
