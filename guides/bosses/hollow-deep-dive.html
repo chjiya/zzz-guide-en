@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/zzz-guide-en/">
+    <title>🌀 Hollow Zero Complete Deep Dive – All Modes, Resonia, Corruption & Rewards | ZZZ Guide</title>
+    <meta name="description" content="The definitive Hollow Zero deep dive guide for Zenless Zone Zero. Covers all modes (Story, Routine Cleanup, Withering Garden, Blitz), Resonia tier list, Corruption management, weekly rewards, and character tier lists.">
+    <link rel="canonical" href="https://chjiya.github.io/zzz-guide-en/guides/bosses/hollow-deep-dive.html">
+    <link rel="stylesheet" href="/zzz-guide-en/css/style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "🌀 Hollow Zero Complete Deep Dive – All Modes, Resonia, Corruption & Rewards",
+        "author": { "@type": "Organization", "name": "ZZZ Guide" },
+        "datePublished": "2026-06-12",
+        "dateModified": "2026-06-12",
+        "description": "The definitive Hollow Zero deep dive guide. Covers every mode (Story, Routine Cleanup, Withering Garden, Blitz Mode), Resonia tier list with S/A/B rankings, Corruption management strategies, weekly reward thresholds, and character tier lists by role.",
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://chjiya.github.io/zzz-guide-en/guides/bosses/hollow-deep-dive.html" }
+    }
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4B26RL1D24"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-4B26RL1D24');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3857626678274044"
+         crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/zzz-guide-en/" class="site-logo">🔥 ZZZ Guide</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/zzz-guide-en/">Home</a></li>
+                    <li><a href="/zzz-guide-en/guides/characters/miyabi.html">Characters</a></li>
+                    <li><a href="/zzz-guide-en/guides/teams/best-team-comps.html">Teams</a></li>
+                    <li><a href="/zzz-guide-en/guides/bosses/weekly-boss-guide.html" class="active">Bosses</a></li>
+                    <li><a href="/zzz-guide-en/guides/beginner/beginner-guide.html">Beginner</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <nav class="breadcrumb">
+                <a href="/zzz-guide-en/">Home</a> &raquo;
+                <a href="/zzz-guide-en/guides/bosses/weekly-boss-guide.html">Bosses</a> &raquo;
+                Hollow Zero Deep Dive
+            </nav>
+
+            <article class="article-page">
+                <header class="article-header">
+                    <h1>🌀 Hollow Zero Complete Deep Dive Guide</h1>
+                    <div class="article-meta">
+                        <span class="version-badge">v1.1</span>
+                        <span>Updated June 12, 2026</span>
+                        <span class="tag" style="color:var(--accent)">Roguelike • Endgame • Weekly • Resonia</span>
+                    </div>
+                </header>
+
+                <!-- Quick Navigation -->
+                <nav class="quick-nav">
+                    <h4>📖 Quick Navigation</h4>
+                    <ul>
+                        <li><a href="#overview">1. Overview &amp; What is Hollow Zero?</a></li>
+                        <li><a href="#modes">2. All Modes Explained</a></li>
+                        <li><a href="#progression">3. Progression System</a></li>
+                        <li><a href="#resonia-tier">4. Resonia Tier List</a></li>
+                        <li><a href="#character-tier">5. Character Tier List by Role</a></li>
+                        <li><a href="#corruption">6. Corruption Management</a></li>
+                        <li><a href="#routes">7. Best Routes &amp; Paths</a></li>
+                        <li><a href="#weekly-rewards">8. Weekly Rewards &amp; Thresholds</a></li>
+                        <li><a href="#faq">9. FAQ</a></li>
+                    </ul>
+                </nav>
+
+                <div class="article-content">
+
+                    <!-- ===== SECTION 1: OVERVIEW ===== -->
+                    <h2 id="overview">1. Overview — What is Hollow Zero?</h2>
+                    <p><strong>Hollow Zero</strong> is Zenless Zone Zero's flagship <strong>rogue-lite endgame mode</strong>. It challenges Proxies to lead their Agents through procedurally generated Hollow zones filled with deadly Ethereals, random events, and powerful bosses. Each run is a fresh experience — the map layout, enemy encounters, and Resonia (buff items) are randomised every time you enter.</p>
+                    <p>More than just a combat mode, Hollow Zero is the <strong>primary source of weekly progression materials</strong>. By clearing runs you earn <strong>Investigation Merits</strong> (capped weekly), which are exchanged for Agent Talent materials, W-Engine upgrade components, Drive Disc fuel, and exclusive cosmetics from the Outpost Logistics shop. Every endgame player <em>must</em> run Hollow Zero weekly to keep up their account progression.</p>
+
+                    <div class="info-card">
+                        <h4>⚡ Core Mechanics at a Glance</h4>
+                        <div class="stat">
+                            <span class="stat-label">Objective</span>
+                            <span class="stat-value">Navigate zones → defeat enemies → reach boss → clear the Hollow</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Corruption</span>
+                            <span class="stat-value">Accumulating debuff that scales with progress; manage it or wipe</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Resonia</span>
+                            <span class="stat-value">Rogue-lite buffs that stack across categories (Attack, Defense, Anomaly, etc.)</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Weekly Reset</span>
+                            <span class="stat-value">Monday 04:00 server time — Investigation Merit cap resets</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Unlock</span>
+                            <span class="stat-value">Inter-Knot Level 20 + Chapter 1 completion</span>
+                        </div>
+                    </div>
+
+                    <p>What sets Hollow Zero apart from standard content is its <strong>rogue-lite progression</strong>: you start each run weak and get exponentially stronger as you collect Resonia, making even the highest difficulties conquerable with smart picks. Conversely, poor decisions — ignoring Corruption, mixing unfocused Resonia categories — can sink an otherwise strong team.</p>
+
+                    <!-- Amazon Affiliate Ad -->
+                    <div class="info-card" style="background:rgba(240,192,64,0.06);border-color:rgba(240,192,64,0.2);text-align:center">
+                        <p style="margin:0;color:var(--text-muted);font-size:0.85rem">
+                            🎮 <strong>Level up your ZZZ experience</strong> — 
+                            <a href="https://amzn.to/4c7Xr2Z" target="_blank" rel="sponsored" style="color:var(--gold)">Shop Gaming Keyboards &amp; Controllers on Amazon</a>
+                        </p>
+                    </div>
+
+                    <!-- ===== SECTION 2: ALL MODES ===== -->
+                    <h2 id="modes">2. All Modes Explained</h2>
+                    <p>Hollow Zero has evolved significantly since launch. Here is every mode currently available, from the tutorial-level Story to the brutal Withering Garden.</p>
+
+                    <h3>📜 Story Mode (Hollow Deep Dive)</h3>
+                    <p><strong>Unlock:</strong> Inter-Knot Level 20+ — available immediately upon accessing Hollow Zero.</p>
+                    <p>Story Mode is the <strong>introductory/tutorial version</strong> of Hollow Zero. It walks you through the basics: navigating the map, battling enemies in turn-based tile progressions, collecting Resonia, and understanding Corruption. The difficulty is tuned low enough that even undergeared teams can complete it.</p>
+                    <ul>
+                        <li><strong>Rewards:</strong> One-time Polychrome rewards, basic Investigation Merits, Agent EXP</li>
+                        <li><strong>Difficulty:</strong> Very Easy — designed to teach mechanics</li>
+                        <li><strong>Runs needed:</strong> Complete once for unlock the remaining modes</li>
+                    </ul>
+
+                    <h3>🧹 Routine Cleanup</h3>
+                    <p><strong>Unlock:</strong> After completing Story Mode once.</p>
+                    <p>Routine Cleanup is the <strong>daily/weekly farm mode</strong>. It offers three difficulty tiers — <strong>Internal, Core,</strong> and <strong>Withering Garden</strong> (see below) — each with increasing Corruption pressure and better rewards. Most players spend their weekly attempts here.</p>
+                    <ul>
+                        <li><strong>Internal:</strong> Entry-level (~500 Investigation Merits per clear)</li>
+                        <li><strong>Core:</strong> Mid-tier (~800 merits per clear)</li>
+                        <li><strong>Rewards:</strong> Investigation Merits, Agent EXP, Dennies, occasional Resonia drops</li>
+                    </ul>
+
+                    <h3>🥀 Withering Garden (Lost Item Mode)</h3>
+                    <p><strong>Unlock:</strong> Inter-Knot Level 40+ after clearing Core difficulty Routine Cleanup.</p>
+                    <p><strong>Withering Garden</strong> is the <strong>highest-difficulty Routine Cleanup tier</strong> and the true endgame of Hollow Zero. It features a unique "Lost Item" side objective: hidden items are scattered across the map, and collecting all of them before reaching the boss grants bonus rewards and a special Resonia.</p>
+                    <div class="highlight-box">
+                        <p>🌟 Withering Garden is your <strong>weekly priority</strong>. One clear yields ~1200+ Investigation Merits and the best chances at rare S-Rank Resonia. Run this twice per week to cap your rewards.</p>
+                    </div>
+                    <ul>
+                        <li><strong>Difficulty:</strong> High — enemies hit harder, Corruption accumulates faster</li>
+                        <li><strong>Lost Item Mechanic:</strong> Hidden items in specific tiles; collect all 3 for bonus chest</li>
+                        <li><strong>Rewards:</strong> ~1200 merits, high Resonia drop rate, Lost Item completion bonus</li>
+                    </ul>
+
+                    <h3>⚡ Blitz Mode</h3>
+                    <p><strong>Unlock:</strong> After clearing any Routine Cleanup difficulty once.</p>
+                    <p><strong>Blitz Mode</strong> is the <strong>speedrun variant</strong>. The map is significantly shorter (3–5 zones instead of 8–12), and all enemies are pre-spawned — no turn-based tile movement. You fight waves back-to-back in a gauntlet format. Corruption still accumulates, but runs take 10–15 minutes instead of 30–40.</p>
+                    <div class="tip-box">
+                        <p>⏱ Blitz Mode is great for <strong>farming Investigation Merits quickly</strong> when you're short on time. One Blitz run at Core difficulty gives ~70% of a normal run's merits in half the time.</p>
+                    </div>
+                    <ul>
+                        <li><strong>Duration:</strong> 10–15 minutes per run</li>
+                        <li><strong>Rewards:</strong> Slightly reduced merit pool but much faster clears</li>
+                        <li><strong>Best for:</strong> Quick weekly caps, last-minute Monday grinding</li>
+                    </ul>
+
+                    <!-- ===== SECTION 3: PROGRESSION SYSTEM ===== -->
+                    <h2 id="progression">3. Progression System — Corruption, Resonance &amp; Components</h2>
+
+                    <h3>😈 Corruption Levels</h3>
+                    <p>Corruption is Hollow Zero's <strong>central pressure mechanic</strong>. Every zone you advance increases your Corruption meter. When Corruption reaches certain thresholds, your Agents suffer stacking debuffs:</p>
+                    <ul>
+                        <li><strong>Corruption 0–30:</strong> No penalties — safe zone</li>
+                        <li><strong>Corruption 31–60:</strong> Mild penalties: reduced healing received (−20%), slight Daze resistance</li>
+                        <li><strong>Corruption 61–80:</strong> Moderate penalties: disabled Perfect Assists, increased damage taken (+30%)</li>
+                        <li><strong>Corruption 81–100:</strong> Severe penalties: all healing halved, Anomaly build-up reduced, constant HP drain</li>
+                        <li><strong>Corruption 100+:</strong> Critical — Agents take periodic massive damage; you are on a timer to finish</li>
+                    </ul>
+                    <div class="info-card">
+                        <h4>🧊 Corruption Management Strategy</h4>
+                        <p>Keep your Corruption <strong>below 60</strong> for a comfortable run. Above 80 you're in emergency territory. Prioritize <strong>Rest nodes</strong> and <strong>Defense Resonia</strong> (which increase Pressure tolerance) to stay in control. Never enter a boss fight above Corruption 80 unless you have no choice.</p>
+                    </div>
+
+                    <h3>⚙️ Gear Resonance</h3>
+                    <p><strong>Gear Resonance</strong> is a passive bonus triggered by collecting enough Resonia from the <strong>same category</strong>. Each category has two resonance thresholds:</p>
+                    <ul>
+                        <li><strong>2-piece bonus:</strong> Minor stat boost (e.g., +8% ATK for Attack Resonia)</li>
+                        <li><strong>4-piece bonus:</strong> Major effect (e.g., +25% ATK + Crit Rate for Attack Resonia)</li>
+                    </ul>
+                    <p>This system rewards <strong>focused builds</strong>. A team that stacks 4+ Attack Resonia with a 4-piece Attack Resonance is far stronger than one that grabs one of each category.</p>
+
+                    <h3>🔧 Component Resonance (S-Rank / A-Rank / B-Rank)</h3>
+                    <p><strong>Components</strong> are special Resonia-equivalent items that gear into <strong>Component Resonance</strong>. They come in three ranks:</p>
+                    <table class="build-table">
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Rarity</th>
+                                <th>Drop Rate</th>
+                                <th>Effect Strength</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="priority-badge priority-s">S-Rank</span></td>
+                                <td>Legendary</td>
+                                <td>Rare (Withering Garden / Elite enemies)</td>
+                                <td>Powerful unique effects (e.g., "Dodge Counter deals +200% DMG")</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-a">A-Rank</span></td>
+                                <td>Epic</td>
+                                <td>Common (Routine Cleanup / Boss chests)</td>
+                                <td>Strong stat bonuses (e.g., +18% ATK, +12% Crit Rate)</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-b">B-Rank</span></td>
+                                <td>Rare</td>
+                                <td>Very common (all sources)</td>
+                                <td>Moderate stat bonuses (e.g., +8% ATK)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>Component Resonance</strong> is separate from Gear Resonance and stacks multiplicatively. Equipping 3+ Components of the same rank triggers a Component Resonance effect — for example, 3 S-Rank Components might grant "All team CRIT DMG +30%." Building around Components is a <strong>high-roll, high-reward</strong> strategy.</p>
+
+                    <!-- ===== SECTION 4: RESONIA TIER LIST ===== -->
+                    <h2 id="resonia-tier">4. Resonia Tier List</h2>
+                    <p>Not all Resonia are created equal. Based on community testing and clear speed data, here is the definitive tier list. <strong>S-Tier</strong> are auto-picks; <strong>A-Tier</strong> are strong in specific comps; <strong>B-Tier</strong> should be avoided unless nothing else is available.</p>
+
+                    <h3>🌟 S-Tier Resonia — Best in Slot</h3>
+                    <table class="build-table">
+                        <thead>
+                            <tr>
+                                <th>Resonia</th>
+                                <th>Category</th>
+                                <th>Effect</th>
+                                <th>Why It's S-Tier</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Building Blocks</strong></td>
+                                <td>Attack</td>
+                                <td>+25% ATK; every 3rd attack deals bonus DMG</td>
+                                <td class="best">Universal damage amp; works on every DPS</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Data Archive</strong></td>
+                                <td>Attack</td>
+                                <td>+15% CRIT Rate; hitting a Weakness extends buff duration</td>
+                                <td class="best">Largest CRIT Rate boost in the game</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Final Clarion</strong></td>
+                                <td>Attack</td>
+                                <td>Ultimates deal +40% DMG; using Ultimate buffs team ATK by 20% for 12s</td>
+                                <td class="best">Burst comps; Ultimate rotation teams</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Magnetic Storm</strong></td>
+                                <td>Anomaly</td>
+                                <td>Anomaly DMG +30%; triggers a shockwave on Anomaly proc</td>
+                                <td class="best">Best in slot for all Anomaly teams</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Resonance Filter</strong></td>
+                                <td>Defense</td>
+                                <td>+40% Pressure tolerance; taking DMG reduces Corruption by 5</td>
+                                <td class="best">Corruption management king; enables boss survival</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>🔶 A-Tier Resonia — Strong &amp; Situational</h3>
+                    <table class="build-table">
+                        <thead>
+                            <tr>
+                                <th>Resonia</th>
+                                <th>Category</th>
+                                <th>Effect</th>
+                                <th>Best For</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Fury Protocol</td>
+                                <td>Attack</td>
+                                <td>+18% ATK; hitting enemy increases ATK further (stacks 3x)</td>
+                                <td>Sustained DPS teams</td>
+                            </tr>
+                            <tr>
+                                <td>Thermal Exhaust</td>
+                                <td>Anomaly</td>
+                                <td>Burn/Burn DoT lasts +50% longer; Burning enemies take 15% more DMG</td>
+                                <td>Fire Anomaly teams (Soldier 11, Burnice)</td>
+                            </tr>
+                            <tr>
+                                <td>Ice Core</td>
+                                <td>Anomaly</td>
+                                <td>Freeze duration +30%; hitting Frozen enemies restores Energy</td>
+                                <td>Ice teams (Ellen Joe, Lycaon)</td>
+                            </tr>
+                            <tr>
+                                <td>Shield Amplifier</td>
+                                <td>Defense</td>
+                                <td>Shielding +35%; shielded allies deal +12% DMG</td>
+                                <td>Defense/Support teams with shielders</td>
+                            </tr>
+                            <tr>
+                                <td>Quick Charge</td>
+                                <td>Support</td>
+                                <td>Energy Regen +25%; using EX Special restores all team Energy by 10%</td>
+                                <td>Energy-hungry comps; Ultimate spam</td>
+                            </tr>
+                            <tr>
+                                <td>Reconstruction Protocol</td>
+                                <td>Support</td>
+                                <td>Healing received +30%; overheal grants a shield equal to 12% Max HP</td>
+                                <td>Sustain teams; high-Corruption runs</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>🟦 B-Tier Resonia — Avoid Unless Desperate</h3>
+                    <table class="build-table">
+                        <thead>
+                            <tr>
+                                <th>Resonia</th>
+                                <th>Category</th>
+                                <th>Effect</th>
+                                <th>Why It's Weak</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Flat Battery</td>
+                                <td>Attack</td>
+                                <td>+6% ATK (flat)</td>
+                                <td class="alt">Negligible boost; outclassed by every other Attack Resonia</td>
+                            </tr>
+                            <tr>
+                                <td>Tough Hide</td>
+                                <td>Defense</td>
+                                <td>+10% DEF</td>
+                                <td class="alt">DEF% is the worst stat in Hollow Zero; doesn't help with Corruption</td>
+                            </tr>
+                            <tr>
+                                <td>Slow Burn</td>
+                                <td>Anomaly</td>
+                                <td>Anomaly DMG +5%</td>
+                                <td class="alt">Only +5%; an A-Rank Anomaly Resonia gives triple this value</td>
+                            </tr>
+                            <tr>
+                                <td>Minor Adjustment</td>
+                                <td>Support</td>
+                                <td>Healing +8%</td>
+                                <td class="alt">Too small to matter; only useful as fodder for Component Synergy</td>
+                            </tr>
+                            <tr>
+                                <td>Resonance Fragment</td>
+                                <td>Special</td>
+                                <td>+1 to a random Resonance</td>
+                                <td class="alt">Random target = unreliable; only take if you need 1 more for a breakpoint</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="highlight-box">
+                        <p>💡 <strong>Golden Rule of Resonia:</strong> Focus 1–2 categories and hit the 4-piece Resonance bonus. A 4-set Attack Resonance + 2-set Anomaly Resonance is worth more than 6 random S-Tier Resonia from different categories.</p>
+                    </div>
+
+                    <!-- Amazon Affiliate Ad -->
+                    <div class="info-card" style="background:rgba(240,192,64,0.06);border-color:rgba(240,192,64,0.2);text-align:center;margin:20px 0">
+                        <p style="margin:0;color:var(--text-muted);font-size:0.85rem">
+                            🎧 <strong>Game on with the best gear</strong> — 
+                            <a href="https://amzn.to/3ZgTXP5" target="_blank" rel="sponsored" style="color:var(--gold)">Browse Gaming Headsets on Amazon</a>
+                        </p>
+                    </div>
+
+                    <!-- ===== SECTION 5: CHARACTER TIER LIST ===== -->
+                    <h2 id="character-tier">5. Character Tier List for Hollow Zero (by Role)</h2>
+                    <p>Certain Agents excel in Hollow Zero's unique environment thanks to AoE coverage, self-sustain, or synergy with top-tier Resonia. Here is the tier breakdown by role.</p>
+
+                    <h3>⚔️ Best DPS Agents</h3>
+                    <table class="build-table">
+                        <thead>
+                            <tr>
+                                <th>Tier</th>
+                                <th>Agent</th>
+                                <th>Attribute</th>
+                                <th>Why They Excel</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="priority-badge priority-s">S</span></td>
+                                <td><strong>Miyabi</strong></td>
+                                <td>Ice</td>
+                                <td class="best">Massive AoE; self-buffing; best Resonia synergy of any DPS</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-s">S</span></td>
+                                <td><strong>Zhu Yuan</strong></td>
+                                <td>Ether</td>
+                                <td class="best">Ether ignores enemy shields; superb burst with Final Clarion Resonia</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-s">S</span></td>
+                                <td><strong>Ellen Joe</strong></td>
+                                <td>Ice</td>
+                                <td class="best">Excellent AoE on Basic/Special; Ice Core Resonia synergy</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-a">A</span></td>
+                                <td><strong>Soldier 11</strong></td>
+                                <td>Fire</td>
+                                <td>Consistent fire damage; Therman Exhaust synergy</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-a">A</span></td>
+                                <td><strong>Jane Doe</strong></td>
+                                <td>Physical</td>
+                                <td>Anomaly queen; Magnetic Storm Resonia makes her a monster</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-a">A</span></td>
+                                <td><strong>Burnice</strong></td>
+                                <td>Fire</td>
+                                <td>Off-field Anomaly application; pairs with any DPS</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-b">B</span></td>
+                                <td><strong>Nekomiya</strong></td>
+                                <td>Physical</td>
+                                <td>Single-target; struggles in multi-wave Hollow Zero floors</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>🔨 Best Stun Agents</h3>
+                    <table class="build-table">
+                        <thead>
+                            <tr>
+                                <th>Tier</th>
+                                <th>Agent</th>
+                                <th>Attribute</th>
+                                <th>Why They Excel</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="priority-badge priority-s">S</span></td>
+                                <td><strong>Lycaon</strong></td>
+                                <td>Ice</td>
+                                <td class="best">Fast Daze build-up; Ice Resonia synergy; team Ice DMG boost</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-s">S</span></td>
+                                <td><strong>Qingyi</strong></td>
+                                <td>Electric</td>
+                                <td class="best">Highest Daze output in the game; built-in Corruption resist</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-a">A</span></td>
+                                <td><strong>Koleda</strong></td>
+                                <td>Fire</td>
+                                <td>Reliable stuns; Burn synergy with fire teams</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-a">A</span></td>
+                                <td><strong>Anby</strong></td>
+                                <td>Electric</td>
+                                <td>Free and effective; Quick Assist has short cooldown for constant Daze</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-b">B</span></td>
+                                <td><strong>Ben</strong></td>
+                                <td>Fire</td>
+                                <td>Defense-based stunner; requires specific comp to shine</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <h3>💚 Best Support Agents</h3>
+                    <table class="build-table">
+                        <thead>
+                            <tr>
+                                <th>Tier</th>
+                                <th>Agent</th>
+                                <th>Attribute</th>
+                                <th>Why They Excel</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="priority-badge priority-s">S</span></td>
+                                <td><strong>Rina</strong></td>
+                                <td>Electric</td>
+                                <td class="best">Penetration buff; team-wide Energy regen; S-Rank Support value</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-s">S</span></td>
+                                <td><strong>Soukaku</strong></td>
+                                <td>Ice</td>
+                                <td class="best">ATK-buffing queen; ice team cornerstone; Corruption cleanse on EX</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-a">A</span></td>
+                                <td><strong>Nicole</strong></td>
+                                <td>Ether</td>
+                                <td>Debuff field; cheap EX Special; team Energy battery</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-a">A</span></td>
+                                <td><strong>Caesar</strong></td>
+                                <td>Physical</td>
+                                <td>Shields + ATK buff; Shield Amplifier Resonia synergy is amazing</td>
+                            </tr>
+                            <tr>
+                                <td><span class="priority-badge priority-b">B</span></td>
+                                <td><strong>Lucy</strong></td>
+                                <td>Fire</td>
+                                <td>Decent ATK buff; outclassed by Soukaku and Nicole for general use</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- ===== SECTION 6: CORRUPTION MANAGEMENT ===== -->
+                    <h2 id="corruption">6. Corruption Management</h2>
+                    <p>Corruption is the single biggest run-ender in Hollow Zero — not lack of damage, not bad Resonia RNG, but letting Corruption creep past critical thresholds. Here is how to master it.</p>
+
+                    <div class="tip-box">
+                        <p>🛡️ <strong>Corruption Rule #1:</strong> Never enter a boss fight at Corruption &gt; 80. The boss applies bonus Corruption on hit, which can push you past 100 mid-fight and trigger the instant-wipe mechanic. Always <strong>Rest or use a Defense Resonia</strong> before the final zone.</p>
+                    </div>
+
+                    <h3>📉 How Corruption Accumulates</h3>
+                    <ul>
+                        <li><strong>Entering a new zone:</strong> +8–12 Corruption (varies by difficulty)</li>
+                        <li><strong>Combat nodes (Elite):</strong> +5 Corruption per battle</li>
+                        <li><strong>Event tiles (negative choice):</strong> +3–15 Corruption depending on your choice</li>
+                        <li><strong>Boss fights:</strong> +10–20 Corruption just for starting (plus boss attacks add more)</li>
+                    </ul>
+
+                    <h3>📈 How to Reduce Corruption</h3>
+                    <ul>
+                        <li><strong>Rest nodes:</strong> The most reliable method. Each Rest reduces Corruption by 15–25 (difficulty-dependent). Always route through a Rest before the boss.</li>
+                        <li><strong>Defense Resonia:</strong> Items like <strong>Resonance Filter</strong> (+40 Pressure tolerance) effectively reduce Corruption's impact by raising the threshold before penalties kick in.</li>
+                        <li><strong>Event choices:</strong> Some events offer "Cleanse Corruption" as a reward option. Prioritize these.</li>
+                        <li><strong>Support Agent EX Skills:</strong> Certain Supports (Soukaku, Nicole) can reduce Corruption when their EX Special hits enemies.</li>
+                        <li><strong>Avoid unnecessary combats:</strong> If your Corruption is high (&gt;60), skip Elite nodes and take safe event tiles instead.</li>
+                    </ul>
+
+                    <div class="info-card">
+                        <h4>🧮 Corruption Math — Sample Run</h4>
+                        <div class="stat">
+                            <span class="stat-label">Start</span>
+                            <span class="stat-value">Corruption 0</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Zone 1 (Combat) → Zone 2 (Event)</span>
+                            <span class="stat-value">+12 +5 = 17</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Zone 3 (Elite) → Zone 4 (Combat)</span>
+                            <span class="stat-value">+10 +5 = 32</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Zone 5 (<strong>Rest!</strong>)</span>
+                            <span class="stat-value">-20 = <strong>12</strong></span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Zones 6–8 → Boss</span>
+                            <span class="stat-value">~45 total → Boss at ~57 ✓</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Defense Resonia bonus</span>
+                            <span class="stat-value">Additional -10 pressure per Rest</span>
+                        </div>
+                    </div>
+
+                    <h3>🌡️ Optimal Corruption Route Strategy</h3>
+                    <p>Here is the recommended routing priority to keep Corruption manageable:</p>
+                    <ol>
+                        <li><strong>Always take Rest nodes</strong> when they appear — especially the one immediately before the boss zone.</li>
+                        <li><strong>Prioritize Defense Resonia</strong> in your first 3 picks. Even if you're building Attack, one Resonance Filter will pay for itself 10x over by enabling you to stack more Attack Resonia later.</li>
+                        <li><strong>Skip Elite nodes</strong> if your Corruption is above 60. Elites give +10 Corruption — not worth the extra risk.</li>
+                        <li><strong>Learn event outcomes.</strong> Some event choices give +15 Corruption — memorize which to avoid.</li>
+                        <li><strong>Use Support EX Specials</strong> off-cooldown in high-Corruption zones for the passive cleanse effect.</li>
+                    </ol>
+
+                    <!-- ===== SECTION 7: BEST ROUTES ===== -->
+                    <h2 id="routes">7. Best Routes Through the Hollow</h2>
+                    <p>Route optimization is critical for maximizing rewards per run. Here are the best paths for each objective.</p>
+
+                    <h3>🏆 Route for Maximum Rewards (Weekly Cap Priority)</h3>
+                    <div class="highlight-box">
+                        <p>🎯 <strong>Best weekly route:</strong> Withering Garden ×2 runs → then Core difficulty ×1 or Blitz Core ×2. This caps your 3000 Investigation Merits efficiently in 3–4 runs.</p>
+                    </div>
+                    <ol>
+                        <li><strong>Run 1: Withering Garden (Full clear + Lost Items)</strong> — Target all 3 Lost Items before boss. Expected: 1200–1400 merits.</li>
+                        <li><strong>Run 2: Withering Garden (Fast clear, skip Lost Items if RNG is bad)</strong> — Focus on boss kill. Expected: 1000–1200 merits.</li>
+                        <li><strong>Run 3 (if needed): Blitz Mode Core difficulty</strong> — Quick 10-minute clean-up. Expected: ~600 merits.</li>
+                    </ol>
+
+                    <h3>⚡ Route for Speed (Time-Constrained)</h3>
+                    <ol>
+                        <li>Blitz Mode (Core) — straight line to boss, no detours</li>
+                        <li>Repeat until weekly cap is hit</li>
+                        <li>Each run: 10–12 minutes, ~600–700 merits</li>
+                    </ol>
+                    <p>With Blitz Mode, 4–5 runs will cap your weekly merits in under an hour. This is the <strong>most time-efficient</strong> method.</p>
+
+                    <h3>🛡️ Route for Safety (High Corruption Resistance)</h3>
+                    <ol>
+                        <li>Focus on <strong>Defense Resonia</strong> in the first 3 zones (Resonance Filter, Shield Amplifier)</li>
+                        <li>Route through <strong>every Rest node</strong> — even if it means skipping a combat or event</li>
+                        <li>Take <strong>safe event choices</strong> (check online event tables if unsure)</li>
+                        <li>Avoid Elites unless you have Resonance Filter equipped</li>
+                    </ol>
+
+                    <div class="tip-box">
+                        <p>🗺️ <strong>Map Reading Tip:</strong> The minimap shows Rest nodes as <strong>blue icons</strong> and Elites as <strong>red skulls</strong>. Plan your route backwards from the boss: ensure you have a Rest immediately before it, then fill in the path.</p>
+                    </div>
+
+                    <!-- ===== SECTION 8: WEEKLY REWARDS ===== -->
+                    <h2 id="weekly-rewards">8. Weekly Rewards &amp; Thresholds</h2>
+                    <p>Your weekly Investigation Merit cap is shared across all Hollow Zero modes. Here is exactly how to hit max rewards efficiently.</p>
+
+                    <table class="build-table">
+                        <thead>
+                            <tr>
+                                <th>Mode</th>
+                                <th>Merits per Clear</th>
+                                <th>Runs to Cap (3000)</th>
+                                <th>Time per Run</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Routine Cleanup — Internal</td>
+                                <td>~500</td>
+                                <td>6</td>
+                                <td>20–25 min</td>
+                            </tr>
+                            <tr>
+                                <td>Routine Cleanup — Core</td>
+                                <td>~800</td>
+                                <td>4</td>
+                                <td>25–30 min</td>
+                            </tr>
+                            <tr>
+                                <td class="best">Withering Garden</td>
+                                <td class="best">~1200</td>
+                                <td class="best">2–3</td>
+                                <td>30–40 min</td>
+                            </tr>
+                            <tr>
+                                <td>Blitz Mode — Core</td>
+                                <td>~650</td>
+                                <td>5</td>
+                                <td>10–12 min</td>
+                            </tr>
+                            <tr>
+                                <td>Blitz Mode — Withering</td>
+                                <td>~850</td>
+                                <td>3–4</td>
+                                <td>12–15 min</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="info-card">
+                        <h4>💰 Shop Priority — Outpost Logistics</h4>
+                        <div class="stat">
+                            <span class="stat-label">🥇 Top Priority</span>
+                            <span class="stat-value">Agent Talent Materials (all types)</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">🥈 Second Priority</span>
+                            <span class="stat-value">W-Engine Upgrade Crystals</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">🥉 Third Priority</span>
+                            <span class="stat-value">Drive Disc Fuel / Battery Charge Reserve</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">🎨 Cosmetic</span>
+                            <span class="stat-value">Limited namecards &amp; profile themes (if spare merits)</span>
+                        </div>
+                    </div>
+
+                    <h3>📊 Weekly Merit Cap Breakdown</h3>
+                    <ul>
+                        <li><strong>Base weekly cap:</strong> ~3000 Investigation Merits (may increase with Inter-Knot level)</li>
+                        <li><strong>Withering Garden bonus:</strong> Lost Item collection adds ~200 extra merits per run</li>
+                        <li><strong>First-clear bonuses:</strong> One-time large merit rewards for first clear of each difficulty</li>
+                        <li><strong>Reset:</strong> Every Monday at 04:00 server time</li>
+                    </ul>
+
+                    <div class="highlight-box">
+                        <p>⏰ <strong>Pro tip:</strong> If you're short on time Sunday night, do one Blitz Withering Garden run (~12 min) and two Blitz Core runs (~10 min each) = ~2200 merits in 32 minutes. Add one more Blitz Core = cap reached in ~42 minutes.</p>
+                    </div>
+
+                    <!-- ===== SECTION 9: FAQ ===== -->
+                    <h2 id="faq">9. Frequently Asked Questions</h2>
+
+                    <div class="faq-item">
+                        <div class="faq-q">Q: What is the difference between Gear Resonance and Component Resonance?</div>
+                        <div class="faq-a">
+                            <p><strong>Gear Resonance</strong> triggers when you equip 2 or 4 Resonia from the same category (e.g., 4 Attack Resonia = 4-piece Attack Resonance). <strong>Component Resonance</strong> triggers when you equip 3 Components of the same rank (S/A/B) and is a separate, multiplicative bonus. They stack with each other, so a run with 4 Attack Resonia + 3 S-Rank Components has two resonances active simultaneously.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-q">Q: How do I unlock Withering Garden?</div>
+                        <div class="faq-a">
+                            <p>Reach <strong>Inter-Knot Level 40</strong> and complete a Core-difficulty Routine Cleanup run. Withering Garden will then appear as the highest difficulty option in Routine Cleanup. You can also access it via Blitz Mode once unlocked.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-q">Q: What are Lost Items in Withering Garden?</div>
+                        <div class="faq-a">
+                            <p>Lost Items are hidden collectible items scattered across the Withering Garden map. There are 3 per run, appearing in random zones. Collecting all 3 before defeating the final boss rewards a <strong>bonus chest</strong> with extra Investigation Merits and a guaranteed A-Rank or S-Rank Resonia. Check suspicious tiles and event nodes for hidden items.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-q">Q: Which Resonia category should I prioritize?</div>
+                        <div class="faq-a">
+                            <p><strong>Attack Resonia</strong> is universally strong and safe for any team. If you're running an Anomaly DPS (Jane Doe, Burnice, Grace), <strong>Anomaly Resonia</strong> becomes top priority. Always grab <strong>at least one Defense Resonia</strong> (Resonance Filter is best) for Corruption management. Avoid mixing more than 2 categories — focus is more important than individual power.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-q">Q: Is Blitz Mode worth doing?</div>
+                        <div class="faq-a">
+                            <p>Yes — especially for <strong>time efficiency</strong>. Blitz Mode gives ~75–80% of the Investigation Merits of a full run in half the time. However, you get fewer Resonia drops per run because there are fewer zones. For weekly merit capping, Blitz is excellent. For Resonia farming, do full Withering Garden runs instead.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-q">Q: What Corruption level is safe for the final boss?</div>
+                        <div class="faq-a">
+                            <p><strong>Below 60 is safe.</strong> Below 40 is ideal. Between 60–80 is risky — the boss will apply bonus Corruption on hit, potentially pushing you past 100 mid-fight. Above 80 is extremely dangerous. Always try to Rest before the boss zone or equip a Defense Resonia to raise your tolerance threshold.</p>
+                        </div>
+                    </div>
+
+                    <!-- Amazon Affiliate Ad -->
+                    <div class="info-card" style="background:rgba(240,192,64,0.06);border-color:rgba(240,192,64,0.2);text-align:center;margin:24px 0">
+                        <p style="margin:0;color:var(--text-muted);font-size:0.85rem">
+                            🖱️ <strong>Precision matters in ZZZ</strong> — 
+                            <a href="https://amzn.to/3ZgTXP5" target="_blank" rel="sponsored" style="color:var(--gold)">Shop Gaming Mice on Amazon</a>
+                        </p>
+                    </div>
+
+                    <!-- Synergies section -->
+                    <h2>🎯 Recommended Team Synergies for Hollow Zero</h2>
+                    <div class="synergy-teams">
+                        <div class="synergy-team">
+                            <h4>❄️ Ice Freeze Comp</h4>
+                            <p>Miyabi / Ellen Joe + Lycaon + Soukaku — 4-piece Ice Resonia, Ice Core component. Perma-freeze everything. Soukaku's ATK buff + Corruption cleanse makes this the safest comp.</p>
+                        </div>
+                        <div class="synergy-team">
+                            <h4>🔥 Fire Burn Comp</h4>
+                            <p>Soldier 11 + Koleda + Lucy / Burnice — 4-piece Attack Resonia + Thermal Exhaust. Constant Burn application; Koleda stuns fast; high burst damage during Daze.</p>
+                        </div>
+                        <div class="synergy-team">
+                            <h4>⚡ Anomaly Melt Comp</h4>
+                            <p>Jane Doe + Burnice + Caesar — 4-piece Anomaly Resonia + Magnetic Storm. Assault procs everywhere; Caesar provides shield; works at any Corruption level thanks to Anomaly ignoring DEF.</p>
+                        </div>
+                        <div class="synergy-team">
+                            <h4>🌀 Ether Nuke Comp</h4>
+                            <p>Zhu Yuan + Qingyi + Nicole — 4-piece Attack Resonia + Final Clarion. Qingyi stuns fast; Nicole shreds Ether RES; Zhu Yuan's Ultimate deals 400k+ in the Daze window.</p>
+                        </div>
+                    </div>
+
+                    <div class="references">
+                        <h3>📚 References &amp; Further Reading</h3>
+                        <ol>
+                            <li><a href="https://www.prydwen.gg/zenless/hollow-zero" target="_blank" rel="noopener">Prydwen — Hollow Zero Guide &amp; Tier List</a></li>
+                            <li><a href="https://zenless.hoyoverse.com/en-us/game/hollow-zero" target="_blank" rel="noopener">Official HoYoverse — Hollow Zero Overview</a></li>
+                            <li><a href="https://www.reddit.com/r/ZenlessZoneZero/" target="_blank" rel="noopener">r/ZenlessZoneZero — Community Hub &amp; Weekly Discussion</a></li>
+                            <li><a href="https://game8.co/games/Zenless-Zone-Zero/archives/hollow-zero" target="_blank" rel="noopener">Game8 — Hollow Zero Walkthrough &amp; All Resonium Database</a></li>
+                            <li><a href="https://hoyo.gg/zzz/hollow-zero" target="_blank" rel="noopener">Hoyo.GG — Interactive Hollow Zero Map Tool</a></li>
+                        </ol>
+                    </div>
+
+                </div> <!-- /article-content -->
+            </article>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>📌 v1.1 &bull; Updated June 12, 2026 &bull; Zenless Zone Zero Hollow Zero Deep Dive Guide</p>
+        </div>
+    </footer>
+
+    <!-- 🌐 Game Guide Network -->
+    <div class="site-network" style="margin:2rem auto;max-width:1000px;padding:1.5rem;background:var(--bg-card);border-radius:8px;text-align:center;border:1px solid var(--border-color)">
+        <p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:0.8rem">🎮 攻略网络 — More Game Guides</p>
+        <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.6rem">
+            <a href="https://chjiya.github.io/teyvat-guide/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">原神 Genshin</a>
+            <a href="https://chjiya.github.io/hsr-guide/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">星铁 HSR</a>
+            <a href="https://chjiya.github.io/zzz-guide/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">绝区零 ZZZ</a>
+            <a href="https://chjiya.github.io/sr-guide-en/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">HSR (EN)</a>
+            <a href="https://chjiya.github.io/enshin-guide-en/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">Genshin (EN)</a>
+            <a href="https://chjiya.github.io/zzz-guide-en/" style="color:#4fc3f7;text-decoration:none;padding:0.3rem 0.6rem;border:1px solid #333;border-radius:4px;font-size:0.8rem">ZZZ (EN)</a>
+        </div>
+    </div>
+
+    <!-- Amazon Affiliates (hidden) -->
+    <div class="amazon-affiliate" style="display:none" aria-hidden="true">
+        Affiliate link placeholder - Amazon Associates Program
+    </div>
+
+</body>
+</html>
