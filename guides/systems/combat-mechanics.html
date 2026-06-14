@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/zzz-guide-en/">
+  <title>ZZZ Combat Mechanics Guide – Daze, Anomaly, Stun & Dodge | ZZZ Guide</title>
+  <meta name="description" content="Complete ZZZ combat mechanics guide covering Daze buildup, Anomaly accumulation & Disorder formula, Stun multiplier, Dodge Counter, Quick Assist, Chain Attack triggers, and advanced combat rotation strategies.">
+  <meta name="keywords" content="ZZZ combat mechanics, Daze buildup, Anomaly accumulation, Disorder formula, Stun multiplier, Dodge Counter, Quick Assist, Chain Attack, ZZZ combat rotation, Zenless Zone Zero mechanics">
+  <link rel="canonical" href="https://chjiya.github.io/zzz-guide-en/guides/systems/combat-mechanics.html">
+  <link rel="stylesheet" href="../../css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "ZZZ Combat Mechanics Guide – Daze, Anomaly, Stun & Dodge Systems",
+    "description": "In-depth guide to ZZZ combat mechanics: Daze buildup formula, Anomaly accumulation rates, Disorder damage calculation, Stun multiplier scaling, Dodge Counter timing, Quick Assist mechanics, and Chain Attack optimization.",
+    "datePublished": "2026-06-14",
+    "dateModified": "2026-06-14",
+    "inLanguage": "en-US",
+    "author": { "@type": "Organization", "name": "ZZZ Guide EN" },
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://chjiya.github.io/zzz-guide-en/guides/systems/combat-mechanics.html" }
+  }
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4B26RL1D24"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4B26RL1D24');
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="site-logo">🎮 ZZZ Guide EN</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../../index.html#characters">Characters</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+<nav class="breadcrumb">
+  <a href="../../index.html">Home</a> &raquo;
+  <a href="../index.html">Guides</a> &raquo;
+  Combat Mechanics
+</nav>
+
+<article>
+<span class="version-badge">📌 v2.8</span>
+<h1>⚔️ ZZZ Combat Mechanics Guide — Complete System Breakdown</h1>
+<div class="article-meta">Updated 2026-06-14 | Systems Guide</div>
+
+<div class="ad-placeholder">
+  <p style="background:#1c2129;border:1px solid #30363d;border-radius:8px;padding:12px;text-align:center;color:#8b949e;">🛒 Level up your gameplay with our <a href="../../recommended-gear.html" style="color:#58a6ff;">Recommended Gaming Gear</a></p>
+</div>
+
+<h2>📋 Core Combat Systems Overview</h2>
+<p>ZZZ's combat system revolves around five interconnected mechanics: <strong>Daze</strong> (stun buildup), <strong>Anomaly</strong> (elemental status), <strong>Stun Multiplier</strong> (damage amplification), <strong>Dodge</strong> (evasion + counter), and <strong>Chain Attacks</strong> (team combo finishers). Understanding how these systems interact is the key to maximizing damage output and clearing endgame content efficiently.</p>
+
+<div class="info-card">
+<h3>🔑 Combat Loop Summary</h3>
+<p>Basic rotation: <strong>Stunner applies Daze → Enemy enters Stunned state (1.5x-3x damage) → Switch to DPS → Apply Anomaly → Chain Attack → Big damage window</strong>. Each step in this chain multiplies the next, so optimizing every link dramatically increases your clear speed.</p>
+</div>
+
+<h2>💥 Daze System — The Stun Meter</h2>
+
+<h3>How Daze Works</h3>
+<p>Daze is ZZZ's equivalent of a "stagger" or "break" meter. Every enemy has a hidden Daze bar that fills when you deal Daze damage. Once full, the enemy enters the <strong>Stunned</strong> state, taking increased damage for a fixed duration. Daze buildup decays over time if the enemy isn't hit, so maintaining pressure is critical.</p>
+
+<p><strong>Daze Formula:</strong></p>
+<p><code>Daze Applied = Base Daze × (1 + Impact% Bonuses) × Stance Modifier × Enemy Resistance</code></p>
+
+<ul>
+  <li><strong>Base Daze:</strong> Each attack has a hidden Daze value. Heavy attacks (EX Specials, Chains) apply more Daze than basic attacks.</li>
+  <li><strong>Impact:</strong> The primary stat for Stun agents. Each point of Impact increases Daze applied by a fixed percentage. A well-built Stunner should have 140-180 Impact.</li>
+  <li><strong>Stance Modifier:</strong> Attacks performed during certain states (e.g., Anby's Hold Basic Attack after Dodge Counter) deal bonus Daze.</li>
+  <li><strong>Enemy Resistance:</strong> Bosses have higher Daze resistance than regular enemies. Elite enemies in Shiyu Defense have roughly 2x the Daze bar of regular mobs.</li>
+</ul>
+
+<div class="build-table">
+<table>
+<thead><tr><th>Agent Type</th><th>Base Impact</th><th>Optimal Impact</th><th>Daze Role</th></tr></thead>
+<tbody>
+<tr><td>S-Rank Stunner (Qingyi, Lycaon, Koleda)</td><td>120-130</td><td>170-190</td><td>Primary Daze dealer</td></tr>
+<tr><td>A-Rank Stunner (Anby)</td><td>110-118</td><td>155-175</td><td>Budget Daze dealer</td></tr>
+<tr><td>Non-Stunner</td><td>90-100</td><td>—</td><td>Negligible Daze contribution</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Stun Duration & Scaling</h3>
+<p>Stun duration is fixed at approximately <strong>4-5 seconds</strong> for most enemies and bosses. However, certain agents and abilities can extend this window:</p>
+<ul>
+  <li><strong>Qingyi:</strong> Her Charged Basic Attack in Enhanced State extends stun duration by ~0.5s.</li>
+  <li><strong>Lycaon:</strong> His EX Special applies a debuff that increases enemy Daze taken by 25% for 10 seconds.</li>
+  <li><strong>Koleda:</strong> Her Chain Attack deals bonus Daze and applies a brief ATK debuff on the enemy.</li>
+</ul>
+
+<div class="highlight-box">
+<p><strong>💡 Daze Efficiency Tip:</strong> Against bosses, Daze decays at roughly 5% per second. Use your Stunner's EX Special (costs Energy) to burst Daze quickly rather than relying on basic attacks. Save your Stunner's energy right before the boss enters their "rage" phase to break them out of it faster.</p>
+</div>
+
+<h2>🌟 Stun Multiplier — The Damage Amplifier</h2>
+<p>While enemies are Stunned, all damage they take is multiplied by a <strong>Stun Multiplier</strong>. This multiplier varies by agent and increases with their Stun DMG Bonus stat. The base multiplier is approximately <strong>1.5x</strong>, but properly built stunners can push it to <strong>2.5x-3.0x</strong>.</p>
+
+<div class="build-table">
+<table>
+<thead><tr><th>Stun DMG Bonus</th><th>Approx. Multiplier</th><th>Requirement</th></tr></thead>
+<tbody>
+<tr><td>0% (baseline)</td><td>1.50x</td><td>No Stun DMG stats</td></tr>
+<tr><td>50%</td><td>1.80x</td><td>Drive Disc set bonus (Shockstar Disco 4pc)</td></tr>
+<tr><td>80%</td><td>2.10x</td><td>Shockstar 4pc + substats</td></tr>
+<tr><td>120%+</td><td>2.50x+</td><td>Shockstar 4pc + W-Engine (Hellfire Gears / Steam Oven)</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>🔥 Anomaly System — Elemental Status Effects</h2>
+
+<h3>Anomaly Buildup</h3>
+<p>Each hit that applies an element (Fire, Electric, Ice, Physical, Ether) accumulates toward filling the enemy's Anomaly bar for that element. Once the bar is full, the Anomaly effect triggers. Buildup speed depends on <strong>Anomaly Mastery</strong> and the attack's inherent Anomaly application rate.</p>
+
+<p><strong>Anomaly Application Formula:</strong><br>
+<code>Anomaly Buildup = Base Buildup × (1 + Anomaly Mastery%) × Attack Multiplier</code></p>
+
+<h3>Anomaly Effects</h3>
+<div class="build-table">
+<table>
+<thead><tr><th>Attribute</th><th>Anomaly Name</th><th>Primary Effect</th><th>Duration</th></tr></thead>
+<tbody>
+<tr><td>🔥 Fire</td><td>Burn</td><td>Fire DoT dealing ATK% damage per tick. 50% of tick damage is "Afterburn" — dealt even when the agent is off-field.</td><td>10s</td></tr>
+<tr><td>⚡ Electric</td><td>Shock</td><td>When the enemy takes any attack, they take bonus Electric DMG based on the attacker's ATK. Triggers up to 5 times.</td><td>10s</td></tr>
+<tr><td>❄️ Ice</td><td>Freeze / Frost</td><td>Freeze: Enemy cannot act for ~2s. Frost: Enemy takes 25% increased Ice DMG for 12s.</td><td>2s / 12s</td></tr>
+<tr><td>💥 Physical</td><td>Assault</td><td>Deals massive burst Physical DMG equal to a percentage of the attacker's ATK multiplied by Anomaly Proficiency.</td><td>Instant</td></tr>
+<tr><td>🔮 Ether</td><td>Corruption</td><td>Enemy takes 20% increased DMG from all sources. Additional hits refresh the buff.</td><td>8s</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Disorder — The Advanced Anomaly Mechanic</h3>
+<p>Disorder is triggered when a second Anomaly is applied to an enemy that already has an active Anomaly. The existing Anomaly is consumed ("detonated") for bonus damage equal to a percentage of its remaining tick damage, and the new Anomaly is applied normally.</p>
+
+<p><strong>Disorder Damage Formula:</strong><br>
+<code>Disorder DMG = (Remaining Anomaly DMG × 75%) + (New Anomaly Initial DMG)</code></p>
+
+<p>Disorder is the core mechanic of <strong>Anomaly teams</strong>. Burnice (Fire) + Jane Doe (Physical) is a classic pair: apply Burn → apply Assault → Disorder detonates the Burn for massive bonus damage.</p>
+
+<div class="tip-box">
+<p><strong>🔥 Pro Rotation — Burnice + Jane:</strong> Burnice EX Special (applies Burn) → Jane attacks to build Assault → Assault triggers → Disorder detonates Burn for 50K+ bonus damage → Repeat. Jane's high Anomaly Proficiency (350+) makes her Assaults hit for 100K+ on their own before Disorder.</p>
+</div>
+
+<h2>🏃 Dodge & Dodge Counter</h2>
+
+<h3>Dodge Mechanics</h3>
+<ul>
+  <li><strong>Dodge (tap):</strong> Quick dash with brief invincibility frames (i-frames). Covers a short distance.</li>
+  <li><strong>Sprint (hold):</strong> Sustained movement. No i-frames during sprint, but you can dodge out of sprint.</li>
+  <li><strong>Perfect Dodge:</strong> Dodging 0.2 seconds before an attack connects. Triggers a slow-motion effect and resets your dodge count.</li>
+  <li><strong>Dodge Count:</strong> You have 2 dodges before a short cooldown (approximately 3 seconds for full recharge). Some agents have additional dodge charges.</li>
+</ul>
+
+<h3>Dodge Counter</h3>
+<p>After a Perfect Dodge, pressing Basic Attack triggers a <strong>Dodge Counter</strong> — a powerful follow-up attack unique to each agent. Dodge Counters deal bonus Daze and damage, and often have unique properties:</p>
+<ul>
+  <li><strong>Anby:</strong> Dodge Counter → Hold Basic Attack = rapid Daze buildup combo</li>
+  <li><strong>Nekomata:</strong> Dodge Counter triggers her Dash Attack, which stacks her Claw Mark passive faster</li>
+  <li><strong>Soldier 11:</strong> Dodge Counter applies a Fire DMG buff to her next attack</li>
+  <li><strong>Miyabi:</strong> Dodge Counter triggers a Frost application wave</li>
+</ul>
+
+<h2>🔄 Quick Assist & Chain Attacks</h2>
+
+<h3>Quick Assist</h3>
+<p>Quick Assist is triggered by tapping the character switch button during certain conditions (after being launched, after a teammate's attack connects). It switches to the incoming character and performs a unique Quick Assist attack. Benefits include:</p>
+<ul>
+  <li>No switch cooldown time (normal switches have ~0.5s CD)</li>
+  <li>Quick Assist attacks deal bonus Daze</li>
+  <li>The incoming character can immediately use their EX Special after a Quick Assist</li>
+</ul>
+
+<h3>Chain Attacks</h3>
+<p>Chain Attacks trigger when you fill the enemy's Daze bar (stun them) or during specific conditions. During the stun window, each agent uses their Chain Attack in sequence, with the order determined by your team positioning:</p>
+<ul>
+  <li><strong>Slot 1 (Left):</strong> First Chain Attack — typically your DPS or Stunner</li>
+  <li><strong>Slot 2 (Middle):</strong> Second Chain Attack — typically your sub-DPS</li>
+  <li><strong>Slot 3 (Right):</strong> Third Chain Attack — typically your Support</li>
+</ul>
+
+<div class="highlight-box">
+<p><strong>💡 Chain Attack Optimization:</strong> You can choose to skip a Chain Attack by pressing the Dodge button. This saves time and leaves the enemy Stunned longer for your DPS to deal raw damage. <strong>Rule of thumb:</strong> If your DPS's raw damage window out-damages the Chain Attack's contribution, skip the last Chain Attack and go straight into your damage rotation.</p>
+</div>
+
+<h2>📊 Advanced Rotation Concepts</h2>
+
+<h3>The "Stun Burst" Rotation</h3>
+<p>Meta teams follow a cycle:</p>
+<ol>
+  <li><strong>Setup Phase:</strong> Support applies buffs/debuffs (Nicole's DEF shred, Lucy's ATK buff, Soukaku's Ice DMG buff)</li>
+  <li><strong>Daze Phase:</strong> Stunner builds Daze with EX Specials and Dodge Counters</li>
+  <li><strong>Stun Burst Phase:</strong> Enemy is Stunned → Switch to DPS → Apply Anomaly → Chain Attack → DPS EX Special → DPS Ultimate</li>
+  <li><strong>Cooldown Phase:</strong> Regenerate Energy, reapply buffs, repeat</li>
+</ol>
+
+<h3>Energy Management</h3>
+<ul>
+  <li><strong>Energy Generation:</strong> Each agent generates Energy by attacking and taking damage. EX Skills cost 60 Energy.</li>
+  <li><strong>Energy Regen:</strong> All agents passively regenerate ~1.2 Energy/second out of combat. Supports gain bonus Energy from certain Drive Disc sets.</li>
+  <li><strong>Swing Jazz 2pc:</strong> +20% Energy Regen — standard set for Support agents.</li>
+  <li><strong>Ultimate Energy:</strong> Ultimates require 3,000 Energy (the yellow bar). Each agent builds their own Ultimate energy independent of EX energy.</li>
+</ul>
+
+<h2>🎯 Key Stats Reference</h2>
+<div class="build-table">
+<table>
+<thead><tr><th>Stat</th><th>What It Does</th><th>Priority Agents</th><th>Soft Cap</th></tr></thead>
+<tbody>
+<tr><td>Impact</td><td>Increases Daze application</td><td>Stunners</td><td>170+</td></tr>
+<tr><td>Anomaly Proficiency</td><td>Increases Anomaly DMG</td><td>Anomaly agents</td><td>350+</td></tr>
+<tr><td>Anomaly Mastery</td><td>Speeds up Anomaly buildup</td><td>Anomaly agents</td><td>180+</td></tr>
+<tr><td>Pen Ratio</td><td>Ignores enemy DEF</td><td>Main DPS</td><td>30-40%</td></tr>
+<tr><td>Energy Regen</td><td>Faster EX Skill uptime</td><td>Supports</td><td>1.8+ /sec</td></tr>
+</tbody>
+</table>
+</div>
+
+</article>
+
+<div class="amazon-affiliate" style="display:none">[Amazon Affiliate] As an Amazon Associate I earn from qualifying purchases.</div>
+</main>
+
+<footer class="site-footer">
+  <p>ZZZ Guide EN © 2026 · Community-maintained unofficial fan site · Game content © HoYoverse</p>
+  <p style="margin-top:6px;font-size:0.7rem;color:var(--text-muted);">As an Amazon Associate I earn from qualifying purchases.</p>
+</footer>
+
+</body>
+</html>
